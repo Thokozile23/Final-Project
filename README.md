@@ -2,7 +2,8 @@
 
 ## Nice visuals to illustrate your main concepts and why this project is important for businesses. 
 
-## Author List: With links to each member's GitHub page. Each member's GitHub page should have a proper readme profile with a well-written bio. 
+## Authors:
+- Elaina Longjohn, https://github.com/elongjohn
 
 ## Project Scope: Be as specific as possible with the scope of your project (which should be as narrowly focused as possible.) 
 
