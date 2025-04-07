@@ -3,17 +3,17 @@
 ## Nice visuals to illustrate your main concepts and why this project is important for businesses. 
 
 ## Authors:
-- **[Elaina Longjohn]**  
-  GitHub: [@author1](https://github.com/elongjohn)  
+- **Elaina Longjohn**  
+  GitHub:https://github.com/elongjohn
 
-- **[Mills Becouvarakis]**  
-  GitHub: [@author2](https://github.com/author2)  
+- **Mills Becouvarakis**  
+  GitHub: https://github.com/author2
   
-- **[Shields Riggs]**  
-  GitHub: [@author1](https://github.com/author1)  
+- **Shields Riggs**  
+  GitHub: https://github.com/author1
 
-- **[Thokozile Munthali]**  
-  GitHub: [@author2](https://github.com/author2)  
+- **Thokozile Munthali**  
+  GitHub: https://github.com/author2
 
 ## Project Scope: Be as specific as possible with the scope of your project (which should be as narrowly focused as possible.) 
 
