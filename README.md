@@ -31,7 +31,7 @@ https://claude.site/artifacts/79270026-7cfb-4106-a677-2b3b898d03d5
 ## What's next? Help us envision future developments and concerns. 
 
 ## Responsible AI considerations: Recommender System Biases
-![image](https://github.com/user-attachments/assets/ea0dde89-b003-4d35-8ee8-c1c536f815d4)
+![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
 
 Understanding the biases present in recommender systems (RSs) is crucial, as these biases can significantly impact the fairness, accuracy, and trustworthiness of recommendations. The biases within RSs can be categorized into four main types: data biases, cognitive biases, position/presentation biases, and algorithmic/model biases.
 
