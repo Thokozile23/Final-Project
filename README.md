@@ -31,10 +31,20 @@ https://claude.site/artifacts/79270026-7cfb-4106-a677-2b3b898d03d5
 ## What's next? Help us envision future developments and concerns. 
 
 ## Responsible AI considerations: Recommender System Biases
-![image](https://github.com/user-attachments/assets/5a6b84d7-dba3-463c-8faf-ed988eb29cfc)
+![image](https://github.com/user-attachments/assets/ea0dde89-b003-4d35-8ee8-c1c536f815d4)
 
-### Fairness:
-Recomender systems have been shown to provide different recommendation quality to different users based on characterisitics of gender, age, ethnicity, and/or personality. It is essential to be aware of individual and group fairness.  use https://research.ebsco.com/c/bq4orh/viewer/pdf/nqcpkx6jdv
+Understanding the biases present in recommender systems (RSs) is crucial, as these biases can significantly impact the fairness, accuracy, and trustworthiness of recommendations. The biases within RSs can be categorized into four main types: data biases, cognitive biases, position/presentation biases, and algorithmic/model biases.
+
+- Data Bias:
+Data biases occur when the training data used by the recommender system is unbalanced or not fully representative of the entire user base. For example, certain demographic groups may be underrepresented, leading to recommendations that fail to reflect the diversity of users or perpetuate existing inequalities.
+- Coginitive Bias:
+Cognitive biases are influenced by human mental shortcuts or heuristics, which can affect how users interact with the system. Examples include the anchoring effect, where users rely too heavily on the first piece of information they encounter, or the recency effect, which may cause users to favor items that are more recent rather than more relevant.
+- Position/Presentation Bias:
+Position or presentation biases arise from the way recommendations are displayed to users. Items placed at the top of the list, for example, are more likely to be selected, regardless of their actual relevance to the user. This form of bias is often unintentional but can significantly skew the user experience.
+- Algorithmic/Model Bias
+Algorithmic or model biases are embedded in the recommendation algorithms themselves, often due to the way models are trained or the data they use. These biases can amplify existing stereotypes or reinforce behaviors by overemphasizing certain patterns in user data, such as preferences based on past behaviors or demographic factors.
+
+
 
 ## References:
 https://research.ebsco.com/c/bq4orh/viewer/pdf/nqcpkx6jdv
