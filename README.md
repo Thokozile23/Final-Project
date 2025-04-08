@@ -30,7 +30,9 @@ https://claude.site/artifacts/79270026-7cfb-4106-a677-2b3b898d03d5
 
 ## What's next? Help us envision future developments and concerns. 
 
-## Responsible AI considerations
+## Responsible AI considerations: Recommender System Biases
+![image](https://github.com/user-attachments/assets/5a6b84d7-dba3-463c-8faf-ed988eb29cfc)
+
 ### Fairness:
 Recomender systems have been shown to provide different recommendation quality to different users based on characterisitics of gender, age, ethnicity, and/or personality. It is essential to be aware of individual and group fairness.  use https://research.ebsco.com/c/bq4orh/viewer/pdf/nqcpkx6jdv
 
