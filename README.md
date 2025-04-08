@@ -22,6 +22,9 @@ The negative impacts of these feedback loops are significant, particularly the a
 
 As a result, minority preferences are often drowned out by the mainstream, making it harder for niche or emerging products to get noticed. Through our project, we aim to address this issue by finding a way to reduce popularity bias and create a more level playing field for all products, free from the inherent biases built into recommender systems.
 
+## Website: Popularity Bias & Feedback Loops Simulation
+https://claude.site/artifacts/79270026-7cfb-4106-a677-2b3b898d03d5
+
 ## Project Details: With logical organization and clear but concise writeups. 
 
 ## What's next? Help us envision future developments and concerns. 
