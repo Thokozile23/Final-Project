@@ -24,7 +24,7 @@ As a result, minority preferences are often drowned out by the mainstream, makin
 
 ## Website: Popularity Bias & Feedback Loops Simulation
 https://claude.site/artifacts/79270026-7cfb-4106-a677-2b3b898d03d5
-https://claude.site/artifacts/f6cf13a6-d00a-43d1-956c-18964ff5809a
+
 
 ## Project Details: With logical organization and clear but concise writeups. 
 
