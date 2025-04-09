@@ -7,7 +7,7 @@
   GitHub:https://github.com/elongjohn
 
 - **Mills Becouvarakis**  
-  GitHub: https://github.com/author2
+  GitHub: https://github.com/millsbecouv
   
 - **Shields Riggs**  
   GitHub: https://github.com/author1
