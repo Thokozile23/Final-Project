@@ -51,3 +51,4 @@ Algorithmic or model biases are embedded in the recommendation algorithms themse
 
 ## References:
 https://research.ebsco.com/c/bq4orh/viewer/pdf/nqcpkx6jdv
+[https://dl.acm.org/doi/pdf/10.1145/3340531.3412152](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
