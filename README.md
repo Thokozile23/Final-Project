@@ -106,8 +106,6 @@ The simulation plots how each product's score evolves over 20 iterations.
 
 ---
 
-## What's next? Help us envision future developments and concerns. 
-
 ## 🌐 Website Demo (GenAI)
 
 We developed an interactive simulation using **ClaudeAI** to showcase how popularity bias manifests in recommendation systems.
@@ -121,8 +119,7 @@ We developed an interactive simulation using **ClaudeAI** to showcase how popula
 
 The tool highlights how recommender systems can unintentionally limit discovery and diversity, even when user preferences shift toward niche interests.
 
-
-https://claude.site/artifacts/79270026-7cfb-4106-a677-2b3b898d03d5
+## What's next? Help us envision future developments and concerns. 
 
 ## Responsible AI considerations:
 
