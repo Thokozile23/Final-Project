@@ -75,6 +75,32 @@ We tracked our work using a **GitHub Project Board** organized into several cate
 2. **MovieLens Dataset**: https://grouplens.org/datasets/movielens/  
 3. Ricci et al. (2022). *Recommender Systems Handbook*. (Supporting theory)
 
+### Simulating a Recommender System
+## 1. Dataset & Setup
+We use a simulated dataset of cereal brand "products" with initial randomized popularity scores to mimic the behavior of user-item interactions in a recommender system. This allows us to focus on the **structure and effects** of feedback loops without needing user identifiers.
+
+## 2. Feedback Loop Simulations
+
+We created two models to compare behavior:
+
+- **Model A: No Exploration**  
+  - Recommends the top 4 products repeatedly based on their score.
+  - Simulates how recommender systems reinforce popular items.
+  
+- **Model B: With Exploration Boosts**  
+  - Recommends the top 4 products, but also adds small boosts to 2 low-performing products each round.
+  - Simulates efforts to promote diversity and disrupt the feedback loop.
+
+➡️ **[Run the simulation → feedback_loop_sim.py](./feedback_loop_sim.py)**
+
+## 3. Visualization
+
+The simulation plots how each product's score evolves over 20 iterations.  
+- In **Model A**, the same few products dominate over time.  
+- In **Model B**, more products stay in the mix due to exploration.
+
+---
+
 ## What's next? Help us envision future developments and concerns. 
 
 ## Website: Popularity Bias & Feedback Loops Simulation
