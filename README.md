@@ -15,7 +15,7 @@
 - **Thokozile Munthali**  
   GitHub: https://github.com/author2
 
-## Project Scope: Be as specific as possible with the scope of your project (which should be as narrowly focused as possible.) 
+## Project Scope
 Our project examines the negative effects of feedback loops in recommender systems. A feedback loop is a cycle where a user’s interactions with recommended items influence their future recommendations. This happens because every action a user takes—whether it's clicking, rating, or engaging with content—gets recorded in their profile, which then leads to more similar recommendations in the future.
 
 The negative impacts of these feedback loops are significant, particularly the amplification of popularity bias. In this scenario, the preferences of the majority overpower those of minority groups, causing the recommender system to focus heavily on a narrow set of popular items. This limits both the diversity of recommendations and the potential for users to discover new, lesser-known content.
