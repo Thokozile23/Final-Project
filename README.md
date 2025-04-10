@@ -37,6 +37,15 @@ We grounded our project in recent research on recommender system bias mitigation
 
 This work provides both a theoretical and experimental framework for identifying and mitigating popularity bias through reweighting and counterfactual approaches.
 
+###🧪 Simulating a Recommender System
+Two models show how feedback loops amplify popularity.
+
+Model A: Repeats top picks → less diversity.
+
+Model B: Adds exploration → more balance.
+
+Score trends are visualized over time.
+
 ### 🌐 Website Demo (GenAI)
 We created a simple interactive **GenAI-powered demo** using **ClaudeAI**:
 
