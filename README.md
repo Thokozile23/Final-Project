@@ -37,6 +37,8 @@ We grounded our project in recent research on recommender system bias mitigation
 
 This work provides both a theoretical and experimental framework for identifying and mitigating popularity bias through reweighting and counterfactual approaches.
 
+[See All References](#references)
+
 ### 🧪 Simulating a Recommender System
 Two models show how feedback loops amplify popularity.
 
