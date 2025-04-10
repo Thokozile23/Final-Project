@@ -36,7 +36,7 @@ We investigate the issue of feedback loops in recommender systems, where user in
 We grounded our project in recent research on recommender system bias mitigation. The paper we selected is:
 
 **"De-biasing the User Feedback Loop in Recommender Systems" (2022)** – Proceedings of the ACM Web Conference  
-📎 [Link to paper](https://dl.acm.org/doi/10.1145/3485447.3511993])
+📎 [Link to paper]([https://dl.acm.org/doi/10.1145/3485447.3511993]](https://dl.acm.org/doi/10.1145/3460231.3473321))
 
 This work provides both a theoretical and experimental framework for identifying and mitigating popularity bias through reweighting and counterfactual approaches.
 
