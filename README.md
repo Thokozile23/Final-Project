@@ -46,7 +46,7 @@ Model B: Adds exploration → more balance.
 
 Score trends are visualized over time.
 
-[See Simulation Section](##-Simulating-a-Recommender-System)
+[Go to Simulation Section](#simulating-a-recommender-system)
 
 ### 🌐 Website Demo (GenAI)
 We created a simple interactive **GenAI-powered demo** using **ClaudeAI**:
