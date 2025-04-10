@@ -91,7 +91,7 @@ We created two models to compare behavior:
   - Recommends the top 4 products, but also adds small boosts to 2 low-performing products each round.
   - Simulates efforts to promote diversity and disrupt the feedback loop.
 
-➡️ **[Run the simulation → feedback_loop_sim.py](./feedback_loop_sim.py)**
+➡️ **[Run the simulation → Final Project Sample Code.py](./Final_Project_Sample_Code.py)**
 
 ### 3. Visualization
 
