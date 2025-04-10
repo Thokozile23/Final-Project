@@ -22,13 +22,14 @@ The negative impacts of these feedback loops are significant, particularly the a
 
 As a result, minority preferences are often drowned out by the mainstream, making it harder for niche or emerging products to get noticed. Through our project, we aim to address this issue by finding a way to reduce popularity bias and create a more level playing field for all products, free from the inherent biases built into recommender systems.
 
-<img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="450"/>
 
 ## Project Details
 
 
 ### 🔍 Problem Statement 
 We investigate the issue of feedback loops in recommender systems, where user interactions with popular content continuously reinforce the visibility of that content. This dynamic leads to **popularity bias**, which suppresses the discovery of niche items and limits recommendation diversity. Our goal is to simulate and measure this bias—and explore ways to reduce it.
+
+<img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
 
 ### 🧠 Research Foundation
 We grounded our project in recent research on recommender system bias mitigation. The paper we selected is:
