@@ -41,7 +41,7 @@ We grounded our project in recent research on recommender system bias mitigation
 This work provides both a theoretical and experimental framework for identifying and mitigating popularity bias through reweighting and counterfactual approaches.
 
 ### 🌐 Website Demo (GenAI)
-We created a simple interactive **GenAI-powered demo** using **Google Sheets + Claude/Gemini**:
+We created a simple interactive **GenAI-powered demo** using **ClaudeAI**:
 
 - The user pastes a list of recommended items.
 - The GenAI script classifies them as:
