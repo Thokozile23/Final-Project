@@ -29,10 +29,10 @@ https://claude.site/artifacts/79270026-7cfb-4106-a677-2b3b898d03d5
 ## Project Details: With logical organization and clear but concise writeups. 
 
 
-## 🔍 Problem Statement 
+### 🔍 Problem Statement 
 We investigate the issue of feedback loops in recommender systems, where user interactions with popular content continuously reinforce the visibility of that content. This dynamic leads to **popularity bias**, which suppresses the discovery of niche items and limits recommendation diversity. Our goal is to simulate and measure this bias—and explore ways to reduce it.
 
-## 🧠 Research Foundation
+### 🧠 Research Foundation
 We grounded our project in recent research on recommender system bias mitigation. The paper we selected is:
 
 **"De-biasing the User Feedback Loop in Recommender Systems" (2022)** – Proceedings of the ACM Web Conference  
@@ -40,20 +40,20 @@ We grounded our project in recent research on recommender system bias mitigation
 
 This work provides both a theoretical and experimental framework for identifying and mitigating popularity bias through reweighting and counterfactual approaches.
 
-## 🛠️ Technical Implementation
+### 🛠️ Technical Implementation
 
-### 1. Dataset & Ingestion
+#### 1. Dataset & Ingestion
 - We use the **MovieLens 100K** dataset (static, well-documented).
 - Ingested via **pandas** and optionally **Spark** for scalability.
 - Merged `ratings`, `movies`, and `users` into one interaction dataset.
 
-### 2. Feedback Loop Simulation
+#### 2. Feedback Loop Simulation
 - Built two recommender models:
   - **Model A (Biased):** Uses user ratings without correction — replicates the feedback loop.
   - **Model B (Adjusted):** Penalizes popular items or adds diversity boosting weights.
 - Ran multiple simulation rounds where model output influences user profile → recreating the loop effect.
 
-### 3. Bias & Diversity Metrics
+#### 3. Bias & Diversity Metrics
 Tracked changes over time in:
 - **Gini coefficient** of item exposure
 - **Coverage** of long-tail items
@@ -61,10 +61,10 @@ Tracked changes over time in:
 
 Visualized how Model A's recommendations converge on fewer items over time, while Model B maintains higher diversity.
 
-### 4. Optional ML Component
+#### 4. Optional ML Component
 - Built a **logistic regression** model to predict whether an item would be recommended, based on popularity score and user behavior, to illustrate systemic drift.
 
-## 🌐 Website Demo (GenAI)
+### 🌐 Website Demo (GenAI)
 We created a simple interactive **GenAI-powered demo** using **Google Sheets + Claude/Gemini**:
 
 - The user pastes a list of recommended items.
@@ -75,7 +75,7 @@ We created a simple interactive **GenAI-powered demo** using **Google Sheets + C
 
 This demonstrates how feedback loops can be detected and softened with **LLM augmentation**.
 
-## ✅ Project Management: GitHub Kanban Board
+### ✅ Project Management: GitHub Kanban Board
 We tracked our work using a **GitHub Project Board** organized into:
 
 - **To-Do**: Research reading, model design, visualization plan  
@@ -85,13 +85,13 @@ We tracked our work using a **GitHub Project Board** organized into:
 
 We will present the board live and discuss how we used it to manage our tasks and coordinate as a team.
 
-## 🤖 Responsible AI Considerations
+### 🤖 Responsible AI Considerations
 - **Bias Awareness:** Recommender systems inherently favor majority preferences. We aim to identify and reduce this using fairness-aware modeling.
 - **Transparency:** All simulation assumptions and model decisions are clearly documented.
 - **Explainability:** We visualize how recommendation patterns evolve—showing when and how minority preferences are drowned out.
 - **Mitigation Strategies:** Include weighting, diversity re-ranking, and hybrid models to encourage exposure to lesser-known items.
 
-## 🔗 References
+### 🔗 References
 1. Abdollahpouri, H., Burke, R., & Mobasher, B. (2022). *De-biasing the User Feedback Loop in Recommender Systems*. The Web Conference (WWW).  
    ➤ https://dl.acm.org/doi/10.1145/3485447.3511993  
 2. **MovieLens Dataset**: https://grouplens.org/datasets/movielens/  
