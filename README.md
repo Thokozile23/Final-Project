@@ -121,6 +121,51 @@ The tool highlights how recommender systems can unintentionally limit discovery 
 
 ## What's next? Help us envision future developments and concerns. 
 
+### 1. **Fairness-Aware Recommendation Algorithms**
+
+- **What:** Algorithms designed to promote diversity and fairness.
+  
+- **How:** They balance relevance with exposure, ensuring that less popular but relevant items get visibility.
+  
+- **Future Dev:** Integrating fairness constraints into training objectives or loss functions (e.g., exposure parity, equal opportunity).
+
+---
+
+###  2. **Causal Inference and Debiasing Techniques**
+
+- **What:** Use of causal models to understand and correct the effects of popularity bias.
+  
+- **How:** These models attempt to isolate user preferences from system-induced feedback loops.
+  
+- **Future Dev:** Incorporating counterfactual reasoning or inverse propensity scoring in model training.
+
+---
+
+### 3. **Balanced Training and Sampling Strategies**
+
+- **What:** Adjusting training data to reduce the overrepresentation of popular items.
+  
+- **How:** Techniques like stratified sampling or re-weighting underrepresented item interactions.
+  
+- **Future Dev:** Dynamic sampling methods that adapt based on real-time user behavior.
+
+---
+
+###  4. **User-Controlled and Transparent Recommendations**
+
+- **What:** Letting users control or view recommendation filters.
+  
+- **How:** Providing options like “explore less-known items” or “recommend from new creators.”
+  
+- **Future Dev:** Interfaces with sliders or toggles for users to customize popularity sensitivity.
+
+---
+
+###  5. **Long-Term Engagement Optimization**
+- **What:** Shift from short-term clicks to long-term user satisfaction.
+- **How:** Reward models that consider retention and novelty over time.
+- **Future Dev:** Reinforcement learning models that optimize for diverse, satisfying experiences rather than instant gratification.
+
 ## Responsible AI considerations:
 
 ### Recommender System Biases
