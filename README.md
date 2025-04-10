@@ -49,14 +49,7 @@ We created a simple interactive **GenAI-powered demo** using **ClaudeAI**:
 This demonstrates how feedback loops can be detected and softened with **LLM augmentation**.
 
 ### ✅ Project Management: GitHub Kanban Board
-We tracked our work using a **GitHub Project Board** organized into:
-
-- **To-Do**: Research reading, model design, visualization plan  
-- **Ongoing**: Data processing, simulation testing  
-- **Done**: Feedback loop model, metrics implementation  
-- **Future Ideas**: Applying to e-commerce data, building a fairness-aware recommender  
-
-We will present the board live and discuss how we used it to manage our tasks and coordinate as a team.
+We tracked our work using a **GitHub Project Board** organized into several categories
 
 ### 🤖 Responsible AI Considerations
 - **Bias Awareness:** Recommender systems inherently favor majority preferences. We aim to identify and reduce this using fairness-aware modeling.
