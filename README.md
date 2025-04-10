@@ -40,30 +40,6 @@ We grounded our project in recent research on recommender system bias mitigation
 
 This work provides both a theoretical and experimental framework for identifying and mitigating popularity bias through reweighting and counterfactual approaches.
 
-### 🛠️ Technical Implementation
-
-#### 1. Dataset & Ingestion
-- We use the **MovieLens 100K** dataset (static, well-documented).
-- Ingested via **pandas** and optionally **Spark** for scalability.
-- Merged `ratings`, `movies`, and `users` into one interaction dataset.
-
-#### 2. Feedback Loop Simulation
-- Built two recommender models:
-  - **Model A (Biased):** Uses user ratings without correction — replicates the feedback loop.
-  - **Model B (Adjusted):** Penalizes popular items or adds diversity boosting weights.
-- Ran multiple simulation rounds where model output influences user profile → recreating the loop effect.
-
-#### 3. Bias & Diversity Metrics
-Tracked changes over time in:
-- **Gini coefficient** of item exposure
-- **Coverage** of long-tail items
-- **Distribution** of recommended item popularity
-
-Visualized how Model A's recommendations converge on fewer items over time, while Model B maintains higher diversity.
-
-#### 4. Optional ML Component
-- Built a **logistic regression** model to predict whether an item would be recommended, based on popularity score and user behavior, to illustrate systemic drift.
-
 ### 🌐 Website Demo (GenAI)
 We created a simple interactive **GenAI-powered demo** using **Google Sheets + Claude/Gemini**:
 
