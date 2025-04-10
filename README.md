@@ -52,10 +52,22 @@ This demonstrates how feedback loops can be detected and softened with **LLM aug
 We tracked our work using a **GitHub Project Board** organized into several categories
 
 ### 🤖 Responsible AI Considerations
-- **Bias Awareness:** Recommender systems inherently favor majority preferences. We aim to identify and reduce this using fairness-aware modeling.
-- **Transparency:** All simulation assumptions and model decisions are clearly documented.
-- **Explainability:** We visualize how recommendation patterns evolve—showing when and how minority preferences are drowned out.
-- **Mitigation Strategies:** Include weighting, diversity re-ranking, and hybrid models to encourage exposure to lesser-known items.
+- **Types of Bias in Recommender Systems**  
+  - *Data Bias:* Training data underrepresents certain users.  
+  - *Presentation Bias:* Top-listed items get clicked more.  
+  - *Algorithmic Bias:* Models amplify existing preferences.  
+
+- **Ethical Concerns**  
+  - *Reinforcing Popularity:* Mainstream content overshadows niche voices.  
+  - *Loss of Diversity:* Users are exposed to fewer unique options.  
+  - *User Manipulation:* Engagement is prioritized over genuine interest.  
+  - *Privacy Risk:* Heavy data use raises consent and security concerns.
+
+- **Mitigation Strategies**  
+  - Use **diversity-aware algorithms**.  
+  - Ensure **transparency** and **user control**.  
+  - Limit and protect **user data**.
+
 
 ### 🔗 References
 1. Abdollahpouri, H., Burke, R., & Mobasher, B. (2022). *De-biasing the User Feedback Loop in Recommender Systems*. The Web Conference (WWW).  
