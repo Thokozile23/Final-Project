@@ -7,7 +7,7 @@
   GitHub: https://github.com/millsbecouv
   
 - **Shields Riggs**  
-  GitHub: https://github.com/author1
+  GitHub: https://github.com/SWR22
 
 - **Thokozile Munthali**  
   GitHub: https://github.com/author2
