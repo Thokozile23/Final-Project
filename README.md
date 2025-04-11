@@ -53,7 +53,7 @@ We built a simulation using ClaudeAI to show how recommender systems amplify pop
 Even when users repeatedly engage with niche movies, the "For You" feed still favors popular items.  
 This illustrates how feedback loops limit content diversity and make it harder for underrepresented items to break through.
 
-[Go to Website Section](#website-demo:-popularity-bias-in-action)
+[Go to Website Section](#website-demo-popularity-bias-in-action)
 
 ### ✅ Project Management: GitHub Kanban Board
 We tracked our work using a **GitHub Project Board** organized into several categories
