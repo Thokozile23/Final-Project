@@ -1,7 +1,7 @@
 # Final-Project
 ## Authors:
- - **Elaina Longjohn** 
-  GitHub:https://github.com/elongjohn 
+ - **Elaina Longjohn**
+   GitHub:https://github.com/elongjohn 
 
 - **Mills Becouvarakis**  
   GitHub: https://github.com/millsbecouv
