@@ -177,7 +177,6 @@ Lead by example by integrating cutting-edge, privacy-preserving machine learning
 Develop a dashboard to display how recommendations are generated, showcasing the balance between popularity, diversity, and user preferences.
 
 ## References:
-https://research.ebsco.com/c/bq4orh/viewer/pdf/nqcpkx6jdv
 
 [https://dl.acm.org/doi/pdf/10.1145/3340531.3412152](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
 
