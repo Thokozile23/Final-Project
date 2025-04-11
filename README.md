@@ -86,7 +86,7 @@ We explored multiple peer-reviewed studies, including:
 - Guidelines for aligning recommender design with European AI regulations
 - A tutorial on identifying and mitigating common algorithmic biases
 
-🔗 [See full references](#-references)
+🔗 [See full references](#references)
 
 ---
 
