@@ -25,7 +25,7 @@ As a result, minority preferences are often drowned out by the mainstream, makin
 
 ## Project Details
 
-</img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
+<img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
 
 ### 🧠 Research Foundation
 We grounded our project in recent research on recommender system bias mitigation. The paper we selected is:
