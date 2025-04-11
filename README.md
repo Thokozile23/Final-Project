@@ -163,7 +163,7 @@ Users may not fully understand adjustments made to recommendations, raising conc
 Correcting one form of bias (popularity) might unintentionally introduce new biases, such as favoring specific minority groups over others.
 
 
-## What's next? Help us envision future developments and concerns. 
+## What's next? Help us envision future developments
 
 ## Future Developments
 
