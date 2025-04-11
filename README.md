@@ -118,23 +118,6 @@ We developed an interactive simulation using **ClaudeAI** to showcase how popula
 
 The tool highlights how recommender systems can unintentionally limit discovery and diversity, even when user preferences shift toward niche interests.
 
-## What's next? Help us envision future developments and concerns. 
-
-## Future Developments
-
-### 1. **Integrate Enhanced Diversity Algorithms**
-Continued refinement of algorithms to ensure even greater inclusion of underrepresented or niche content, allowing for tailored recommendations that go beyond mainstream preferences.
-
-### 2. **Implement User Customization Options**
-Provide users with more tools to adjust recommendation settings (e.g., adjusting for diversity or prioritizing specific interests) to empower individual agency.
-
-### 3. **Explore Ethical AI Practices**
-Lead by example by integrating cutting-edge, privacy-preserving machine learning techniques, such as federated learning, to minimize invasive data collection.
-
-### 4. **Offer Transparent Metrics**
-Develop a dashboard to display how recommendations are generated, showcasing the balance between popularity, diversity, and user preferences.
-
-
 ## Responsible AI considerations:
 
 ### Understanding Recommender System Biases
@@ -171,6 +154,22 @@ Users may not fully understand adjustments made to recommendations, raising conc
 - Bias Trade-offs: 
 Correcting one form of bias (popularity) might unintentionally introduce new biases, such as favoring specific minority groups over others.
 
+
+## What's next? Help us envision future developments and concerns. 
+
+## Future Developments
+
+### 1. **Integrate Enhanced Diversity Algorithms**
+Continued refinement of algorithms to ensure even greater inclusion of underrepresented or niche content, allowing for tailored recommendations that go beyond mainstream preferences.
+
+### 2. **Implement User Customization Options**
+Provide users with more tools to adjust recommendation settings (e.g., adjusting for diversity or prioritizing specific interests) to empower individual agency.
+
+### 3. **Explore Ethical AI Practices**
+Lead by example by integrating cutting-edge, privacy-preserving machine learning techniques, such as federated learning, to minimize invasive data collection.
+
+### 4. **Offer Transparent Metrics**
+Develop a dashboard to display how recommendations are generated, showcasing the balance between popularity, diversity, and user preferences.
 
 ## References:
 https://research.ebsco.com/c/bq4orh/viewer/pdf/nqcpkx6jdv
