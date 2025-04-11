@@ -137,7 +137,7 @@ Position or presentation biases arise from the way recommendations are displayed
 -  Algorithmic/Model Bias
 Algorithmic or model biases are embedded in the recommendation algorithms themselves, often due to the way models are trained or the data they use. These biases can amplify existing stereotypes or reinforce behaviors by overemphasizing certain patterns in user data, such as preferences based on past behaviors or demographic factors.
 
-## Ethical Concerns:
+### Ethical Concerns:
 
 -  Marginalization of Minority Voices: 
 Efforts to counter popularity bias may inadvertently sideline mainstream content, raising questions about fairness to all creators.
