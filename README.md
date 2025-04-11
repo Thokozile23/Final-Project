@@ -78,10 +78,15 @@ Recommender systems can unintentionally reinforce popularity bias, limit content
 
 
 ### 🔗 References
-1. Abdollahpouri, H., Burke, R., & Mobasher, B. (2022). *De-biasing the User Feedback Loop in Recommender Systems*. The Web Conference (WWW).  
-   ➤ https://dl.acm.org/doi/10.1145/3485447.3511993  
-2. **MovieLens Dataset**: https://grouplens.org/datasets/movielens/  
-3. Ricci et al. (2022). *Recommender Systems Handbook*. (Supporting theory)
+
+Our project is grounded in recent work highlighting how recommender systems amplify bias through feedback loops. These systems tend to favor popular content, often at the expense of diversity and fairness.
+
+We explored multiple peer-reviewed studies, including:
+- A simulation framework for bias amplification in recommender systems
+- Guidelines for aligning recommender design with European AI regulations
+- A tutorial on identifying and mitigating common algorithmic biases
+
+🔗 [See full references](#-references)
 
 ---
 
