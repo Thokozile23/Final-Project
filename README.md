@@ -118,7 +118,7 @@ We developed an interactive simulation using **ClaudeAI** to showcase how popula
 - Niche items take a long time—and significantly more engagement—to surface in recommendations.
 - This demonstrates how feedback loops reinforce already-popular items, making it harder for diverse or underrepresented content to gain visibility.
 
-🔗 [Try the Demo – Popularity Bias & Feedback Loops Simulation](https://claude.site/artifacts/79270026-7cfb-4106-a677-2b3b898d03d5)
+🔗 [Try the Demo – Popularity Bias & Feedback Loops Simulation](https://claude.site/artifacts/ccbba4e1-d462-4835-a628-b096dd31fec1)
 
 The tool highlights how recommender systems can unintentionally limit discovery and diversity, even when user preferences shift toward niche interests.
 
