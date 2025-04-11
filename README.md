@@ -176,10 +176,22 @@ Lead by example by integrating cutting-edge, privacy-preserving machine learning
 ### 4. **Offer Transparent Metrics**
 Develop a dashboard to display how recommendations are generated, showcasing the balance between popularity, diversity, and user preferences.
 
-## References:
+## References
 
-[https://dl.acm.org/doi/pdf/10.1145/3340531.3412152](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
+- **Mansoury, M., Abdollahpouri, H., Pechenizkiy, M., Mobasher, B., & Burke, R. (2020).**  
+  *Feedback Loop and Bias Amplification in Recommender Systems*.  
+  In *Proceedings of the 29th ACM International Conference on Information & Knowledge Management (CIKM '20)*, pp. 2145–2148.  
+  [https://doi.org/10.1145/3340531.3412152](https://doi.org/10.1145/3340531.3412152)  
+  **Summary:** Explores how recommender systems amplify bias through feedback loops, and proposes a simulation framework for offline analysis.
 
-https://dl.acm.org/doi/10.1145/3512728
+- **Di Noia, T., Tintarev, N., Fatourou, P., & Schedl, M. (2022).**  
+  *Recommender Systems under European AI Regulations*.  
+  *Communications of the ACM*, 65(4), 69–73.  
+  [https://doi.org/10.1145/3512728](https://doi.org/10.1145/3512728)  
+  **Summary:** Discusses the impact of European AI regulation on recommender systems, highlighting transparency, fairness, and accountability.
 
-https://dl.acm.org/doi/10.1145/3460231.3473321
+- **Chen, J., Wang, X., Feng, F., & He, X. (2021).**  
+  *Bias Issues and Solutions in Recommender System: Tutorial on the RecSys 2021*.  
+  In *Proceedings of the 15th ACM Conference on Recommender Systems (RecSys '21)*, pp. 825–827.  
+  [https://doi.org/10.1145/3460231.3473321](https://doi.org/10.1145/3460231.3473321)  
+  **Summary:** Provides a tutorial-style overview of biases in recommendation systems and outlines methods for mitigating them to improve fairness.
