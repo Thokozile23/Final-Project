@@ -46,17 +46,12 @@ Score trends are visualized over time.
 [Go to Simulation Section](#simulating-a-recommender-system)
 
 ### 🌐 Website Demo (GenAI)
-We created a simple interactive **GenAI-powered demo** using **ClaudeAI**:
 
-- The user pastes a list of recommended items.
-- The GenAI script classifies them as:
-  - "Popular mainstream"
-  - "Diverse/long-tail"
-  - Suggests alternative under-represented items.
+We built a simulation using ClaudeAI to show how recommender systems amplify popularity bias.  
+Even when users repeatedly engage with niche movies, the "For You" feed still favors popular items.  
+This illustrates how feedback loops limit content diversity and make it harder for underrepresented items to break through.
 
-This demonstrates how feedback loops can be detected and softened with **LLM augmentation**.
-
-[View our Website](https://script.google.com/a/macros/wm.edu/s/AKfycbyFwWmjGjPUmXUvhE1nXWIw-vb9sq398eHhoBesWVtQY2LD6Ro2LBKYr79cvJls1AdmTQ/exec)
+[Go to Website Section](#website-demo-popularity-bias-in-action)
 
 ### ✅ Project Management: GitHub Kanban Board
 We tracked our work using a **GitHub Project Board** organized into several categories
@@ -101,7 +96,7 @@ The simulation plots how each product's score evolves over 20 iterations.
 
 ---
 
-## 🌐 Website Demo (GenAI)
+## Website Demo: Popularity Bias in Action
 
 We developed an interactive simulation using **ClaudeAI** to showcase how popularity bias manifests in recommendation systems.
 
