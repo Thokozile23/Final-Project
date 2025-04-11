@@ -63,12 +63,13 @@ Recommender systems can unintentionally reinforce popularity bias, limit content
 
 [Go to Responsible AI Section](#responsible-ai-considerations-recommender-system-biases)
 
-
 ### 🔗 References
 1. Abdollahpouri, H., Burke, R., & Mobasher, B. (2022). *De-biasing the User Feedback Loop in Recommender Systems*. The Web Conference (WWW).  
    ➤ https://dl.acm.org/doi/10.1145/3485447.3511993  
 2. **MovieLens Dataset**: https://grouplens.org/datasets/movielens/  
 3. Ricci et al. (2022). *Recommender Systems Handbook*. (Supporting theory)
+
+---
 
 ## Simulating a Recommender System
 ### 1. Dataset & Setup
@@ -93,8 +94,6 @@ We created two models to compare behavior:
 The simulation plots how each product's score evolves over 20 iterations.  
 - In **Model A**, the same few products dominate over time.  
 - In **Model B**, more products stay in the mix due to exploration.
-
----
 
 ## Website Demo: Popularity Bias in Action
 
