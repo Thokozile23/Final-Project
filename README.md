@@ -61,6 +61,8 @@ We tracked our work using a **GitHub Project Board** organized into several cate
 ### 🤖 Responsible AI Considerations
 Recommender systems can unintentionally reinforce popularity bias, limit content diversity, and raise ethical concerns around user privacy and manipulation. We explore these risks and highlight simple strategies like boosting diversity, improving transparency, and minimizing data use.
 
+[Go to Responsible AI Section](#responsible-ai-considerations-recommender-system-biases)
+
 ### 🚀 Future Developments
 
 - Improve diversity in recommendations.
@@ -70,7 +72,6 @@ Recommender systems can unintentionally reinforce popularity bias, limit content
 
 [Go to Future Developments Section](#future-developments)
 
-[Go to Responsible AI Section](#responsible-ai-considerations-recommender-system-biases)
 
 ### 🔗 References
 1. Abdollahpouri, H., Burke, R., & Mobasher, B. (2022). *De-biasing the User Feedback Loop in Recommender Systems*. The Web Conference (WWW).  
