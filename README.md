@@ -1,7 +1,6 @@
 # Final-Project
 ## Authors:
-- ![LongjohnElaina_240819003 (2)](https://github.com/user-attachments/assets/71f327fb-a663-467d-9820-40f2e8920804)
-  **Elaina Longjohn** 
+ - **Elaina Longjohn** 
   GitHub:https://github.com/elongjohn 
 
 - **Mills Becouvarakis**  
