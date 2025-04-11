@@ -1,10 +1,8 @@
 # Final-Project
-
-## Nice visuals to illustrate your main concepts and why this project is important for businesses. 
-
 ## Authors:
-- **Elaina Longjohn**  
-  GitHub:https://github.com/elongjohn
+- ![LongjohnElaina_240819003 (2)](https://github.com/user-attachments/assets/71f327fb-a663-467d-9820-40f2e8920804)
+  **Elaina Longjohn** 
+  GitHub:https://github.com/elongjohn 
 
 - **Mills Becouvarakis**  
   GitHub: https://github.com/millsbecouv
