@@ -25,11 +25,7 @@ As a result, minority preferences are often drowned out by the mainstream, makin
 
 ## Project Details
 
-
-### 🔍 Problem Statement 
-We investigate the issue of feedback loops in recommender systems, where user interactions with popular content continuously reinforce the visibility of that content. This dynamic leads to **popularity bias**, which suppresses the discovery of niche items and limits recommendation diversity. Our goal is to simulate and measure this bias—and explore ways to reduce it.
-
-<img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
+</img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
 
 ### 🧠 Research Foundation
 We grounded our project in recent research on recommender system bias mitigation. The paper we selected is:
@@ -121,50 +117,20 @@ The tool highlights how recommender systems can unintentionally limit discovery 
 
 ## What's next? Help us envision future developments and concerns. 
 
-### 1. **Fairness-Aware Recommendation Algorithms**
+## Future Developments
 
-- **What:** Algorithms designed to promote diversity and fairness.
-  
-- **How:** They balance relevance with exposure, ensuring that less popular but relevant items get visibility.
-  
-- **Future Dev:** Integrating fairness constraints into training objectives or loss functions (e.g., exposure parity, equal opportunity).
+### 1. **Integrate Enhanced Diversity Algorithms**
+Continued refinement of algorithms to ensure even greater inclusion of underrepresented or niche content, allowing for tailored recommendations that go beyond mainstream preferences.
 
----
+### 2. **Implement User Customization Options**
+Provide users with more tools to adjust recommendation settings (e.g., adjusting for diversity or prioritizing specific interests) to empower individual agency.
 
-###  2. **Causal Inference and Debiasing Techniques**
+### 3. **Explore Ethical AI Practices**
+Lead by example by integrating cutting-edge, privacy-preserving machine learning techniques, such as federated learning, to minimize invasive data collection.
 
-- **What:** Use of causal models to understand and correct the effects of popularity bias.
-  
-- **How:** These models attempt to isolate user preferences from system-induced feedback loops.
-  
-- **Future Dev:** Incorporating counterfactual reasoning or inverse propensity scoring in model training.
+### 4. **Offer Transparent Metrics**
+Develop a dashboard to display how recommendations are generated, showcasing the balance between popularity, diversity, and user preferences.
 
----
-
-### 3. **Balanced Training and Sampling Strategies**
-
-- **What:** Adjusting training data to reduce the overrepresentation of popular items.
-  
-- **How:** Techniques like stratified sampling or re-weighting underrepresented item interactions.
-  
-- **Future Dev:** Dynamic sampling methods that adapt based on real-time user behavior.
-
----
-
-###  4. **User-Controlled and Transparent Recommendations**
-
-- **What:** Letting users control or view recommendation filters.
-  
-- **How:** Providing options like “explore less-known items” or “recommend from new creators.”
-  
-- **Future Dev:** Interfaces with sliders or toggles for users to customize popularity sensitivity.
-
----
-
-###  5. **Long-Term Engagement Optimization**
-- **What:** Shift from short-term clicks to long-term user satisfaction.
-- **How:** Reward models that consider retention and novelty over time.
-- **Future Dev:** Reinforcement learning models that optimize for diverse, satisfying experiences rather than instant gratification.
 
 ## Responsible AI considerations:
 
@@ -173,51 +139,34 @@ The tool highlights how recommender systems can unintentionally limit discovery 
 
 Understanding the biases present in recommender systems (RSs) is crucial, as these biases can significantly impact the fairness, accuracy, and trustworthiness of recommendations. The biases within RSs can be categorized into four main types: data biases, cognitive biases, position/presentation biases, and algorithmic/model biases.
 
-- Data Bias:
+## Data Bias:
 Data biases occur when the training data used by the recommender system is unbalanced or not fully representative of the entire user base. For example, certain demographic groups may be underrepresented, leading to recommendations that fail to reflect the diversity of users or perpetuate existing inequalities.
 
-- Coginitive Bias:
+## Coginitive Bias:
 Cognitive biases are influenced by human mental shortcuts or heuristics, which can affect how users interact with the system. Examples include the anchoring effect, where users rely too heavily on the first piece of information they encounter, or the recency effect, which may cause users to favor items that are more recent rather than more relevant.
 
-- Position/Presentation Bias:
+## Position/Presentation Bias:
 Position or presentation biases arise from the way recommendations are displayed to users. Items placed at the top of the list, for example, are more likely to be selected, regardless of their actual relevance to the user. This form of bias is often unintentional but can significantly skew the user experience.
 
-- Algorithmic/Model Bias
+## Algorithmic/Model Bias
 Algorithmic or model biases are embedded in the recommendation algorithms themselves, often due to the way models are trained or the data they use. These biases can amplify existing stereotypes or reinforce behaviors by overemphasizing certain patterns in user data, such as preferences based on past behaviors or demographic factors.
 
 ### Ethical Concerns:
 
-- Reinforcement of Existing Biases
-   
-Concern: AI-driven recommendation systems can inadvertently reinforce existing popularity biases by promoting content that is already popular, while neglecting content from underrepresented groups or niche creators.
+## Marginalization of Minority Voices: 
+Efforts to counter popularity bias may inadvertently sideline mainstream content, raising questions about fairness to all creators.
 
-Ethical Implication: This can lead to a lack of diversity in what users are exposed to, limiting access to new or lesser-known content. Over time, this creates a feedback loop where already popular content continues to dominate, and marginalized creators or topics are continuously excluded.
+## Balance Between Diversity and Relevance: 
+Striving for diversity might lead to recommendations that feel irrelevant or forced, potentially frustrating users.
 
-Solution: A balanced recommendation approach should be used, incorporating mechanisms to give fair exposure to less popular but high-quality content, ensuring that all creators have the opportunity to be discovered.
+## Algorithmic Manipulation: 
+Overcompensation for popularity bias could be exploited by bad actors to artificially amplify niche or low-quality content.
 
-- Erosion of Diversity
-   
-Concern: Popularity bias in AI recommendations could undermine diversity by prioritizing a narrow set of choices that cater to the mainstream, neglecting minority interests, cultures, and perspectives.
+## Transparency Issues: 
+Users may not fully understand adjustments made to recommendations, raising concerns about opacity in how content is prioritized.
 
-Ethical Implication: This undermines pluralism, reducing the variety of content available to users and failing to support underrepresented or emerging creators, leading to a homogenized experience for all users.
-
-Solution: Ethical AI systems should integrate diversity-aware algorithms, which ensure that the recommendation system does not exclusively favor the majority but includes a wider range of content.
-
-- User Manipulation and Exploitation
-   
-Concern: If an AI system prioritizes popularity over quality, it could manipulate users into repeatedly consuming trending or viral content without considering whether it aligns with their true preferences or needs. This could be driven by the platform’s commercial interests (e.g., promoting content that generates more engagement).
-
-Ethical Implication: Users could be exploited by being nudged toward content that increases engagement, rather than being empowered to explore content based on their own informed decisions.
-
-Solution: Platforms should ensure transparency in their recommendation algorithms, giving users the autonomy to understand and adjust their preferences. They should prioritize user well-being and agency over pure commercial or engagement-driven objectives.
-
-- Privacy Concerns
-   
-Concern: AI systems that use popularity bias may require extensive user data to personalize recommendations. While using popularity bias might seem like a way to improve content recommendations, it could still rely on invasive data collection practices.
-
-Ethical Implication: The more data that is collected to enhance recommendations, the greater the risk to users’ privacy. There is a possibility that user data could be misused or inadequately protected, raising ethical concerns about user consent and data security.
-
-Solution: Platforms should ensure that user data is handled ethically, with strong privacy protections in place. They should also minimize the amount of data required for content recommendations, giving users more control over their data and how it is used.
+## Bias Trade-offs: 
+Correcting one form of bias (popularity) might unintentionally introduce new biases, such as favoring specific minority groups over others.
 
 
 ## References:
