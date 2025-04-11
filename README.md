@@ -1,4 +1,4 @@
-# Final-Project
+# Artificial Intelligence Final Project - Feedback Loops in Recommender Systems: Bias, Diversity, and Solutions
 ## Authors:
 - **Elaina Longjohn**  
   GitHub: https://github.com/elongjohn
