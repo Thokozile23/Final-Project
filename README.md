@@ -121,7 +121,6 @@ The tool highlights how recommender systems can unintentionally limit discovery 
 ## Responsible AI considerations:
 
 ### Understanding Recommender System Biases
-![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
 
 Understanding the biases present in recommender systems (RSs) is crucial, as these biases can significantly impact the fairness, accuracy, and trustworthiness of recommendations. The biases within RSs can be categorized into four main types: data biases, cognitive biases, position/presentation biases, and algorithmic/model biases.
 
@@ -136,6 +135,8 @@ Position or presentation biases arise from the way recommendations are displayed
 
 -  Algorithmic/Model Bias
 Algorithmic or model biases are embedded in the recommendation algorithms themselves, often due to the way models are trained or the data they use. These biases can amplify existing stereotypes or reinforce behaviors by overemphasizing certain patterns in user data, such as preferences based on past behaviors or demographic factors.
+
+![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
 
 ### Ethical Concerns:
 
