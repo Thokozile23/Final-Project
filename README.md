@@ -136,38 +136,38 @@ Develop a dashboard to display how recommendations are generated, showcasing the
 
 ## Responsible AI considerations:
 
-### Recommender System Biases
+### Understanding Recommender System Biases
 ![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
 
 Understanding the biases present in recommender systems (RSs) is crucial, as these biases can significantly impact the fairness, accuracy, and trustworthiness of recommendations. The biases within RSs can be categorized into four main types: data biases, cognitive biases, position/presentation biases, and algorithmic/model biases.
 
-## Data Bias:
+-  Data Bias:
 Data biases occur when the training data used by the recommender system is unbalanced or not fully representative of the entire user base. For example, certain demographic groups may be underrepresented, leading to recommendations that fail to reflect the diversity of users or perpetuate existing inequalities.
 
-## Coginitive Bias:
+- Coginitive Bias:
 Cognitive biases are influenced by human mental shortcuts or heuristics, which can affect how users interact with the system. Examples include the anchoring effect, where users rely too heavily on the first piece of information they encounter, or the recency effect, which may cause users to favor items that are more recent rather than more relevant.
 
-## Position/Presentation Bias:
+- Position/Presentation Bias:
 Position or presentation biases arise from the way recommendations are displayed to users. Items placed at the top of the list, for example, are more likely to be selected, regardless of their actual relevance to the user. This form of bias is often unintentional but can significantly skew the user experience.
 
-## Algorithmic/Model Bias
+-  Algorithmic/Model Bias
 Algorithmic or model biases are embedded in the recommendation algorithms themselves, often due to the way models are trained or the data they use. These biases can amplify existing stereotypes or reinforce behaviors by overemphasizing certain patterns in user data, such as preferences based on past behaviors or demographic factors.
 
-### Ethical Concerns:
+## Ethical Concerns:
 
-## Marginalization of Minority Voices: 
+-  Marginalization of Minority Voices: 
 Efforts to counter popularity bias may inadvertently sideline mainstream content, raising questions about fairness to all creators.
 
-## Balance Between Diversity and Relevance: 
+-  Balance Between Diversity and Relevance: 
 Striving for diversity might lead to recommendations that feel irrelevant or forced, potentially frustrating users.
 
-## Algorithmic Manipulation: 
+-  Algorithmic Manipulation: 
 Overcompensation for popularity bias could be exploited by bad actors to artificially amplify niche or low-quality content.
 
-## Transparency Issues: 
+-  Transparency Issues: 
 Users may not fully understand adjustments made to recommendations, raising concerns about opacity in how content is prioritized.
 
-## Bias Trade-offs: 
+- Bias Trade-offs: 
 Correcting one form of bias (popularity) might unintentionally introduce new biases, such as favoring specific minority groups over others.
 
 
