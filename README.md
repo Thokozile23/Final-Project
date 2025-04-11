@@ -59,6 +59,8 @@ We created a simple interactive **GenAI-powered demo** using **ClaudeAI**:
 
 This demonstrates how feedback loops can be detected and softened with **LLM augmentation**.
 
+[View our Website](https://script.google.com/a/macros/wm.edu/s/AKfycbyFwWmjGjPUmXUvhE1nXWIw-vb9sq398eHhoBesWVtQY2LD6Ro2LBKYr79cvJls1AdmTQ/exec)
+
 ### ✅ Project Management: GitHub Kanban Board
 We tracked our work using a **GitHub Project Board** organized into several categories
 
