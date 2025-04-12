@@ -131,17 +131,17 @@ The tool highlights how recommender systems can unintentionally limit discovery 
 
 Understanding the biases present in recommender systems (RSs) is crucial, as these biases can significantly impact the fairness, accuracy, and trustworthiness of recommendations. The biases within RSs can be categorized into four main types: data biases, cognitive biases, position/presentation biases, and algorithmic/model biases.
 
--  Data Bias:
-Data biases occur when the training data used by the recommender system is unbalanced or not fully representative of the entire user base. For example, certain demographic groups may be underrepresented, leading to recommendations that fail to reflect the diversity of users or perpetuate existing inequalities.
+- Data Bias:
+Data bias occurs when training data is unbalanced or not fully representative of all users. This can lead to recommendations that overlook certain demographic groups and reinforce existing inequalities.
 
-- Coginitive Bias:
-Cognitive biases are influenced by human mental shortcuts or heuristics, which can affect how users interact with the system. Examples include the anchoring effect, where users rely too heavily on the first piece of information they encounter, or the recency effect, which may cause users to favor items that are more recent rather than more relevant.
+- Cognitive Bias:
+Cognitive biases stem from human mental shortcuts that shape how users interact with the system. Effects like anchoring or recency can cause users to favor initial or recent items over more relevant ones.
 
 - Position/Presentation Bias:
-Position or presentation biases arise from the way recommendations are displayed to users. Items placed at the top of the list, for example, are more likely to be selected, regardless of their actual relevance to the user. This form of bias is often unintentional but can significantly skew the user experience.
+This bias arises from how recommendations are displayed, with top-listed items receiving more attention. Even if less relevant, their placement can skew user choices and overall system effectiveness.
 
--  Algorithmic/Model Bias
-Algorithmic or model biases are embedded in the recommendation algorithms themselves, often due to the way models are trained or the data they use. These biases can amplify existing stereotypes or reinforce behaviors by overemphasizing certain patterns in user data, such as preferences based on past behaviors or demographic factors.
+- Algorithmic/Model Bias:
+Algorithmic bias is rooted in how models are built and trained, often reflecting the flaws in their data. These biases can reinforce stereotypes or overemphasize certain user patterns, limiting diversity in recommendations.
 
 ![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
 
