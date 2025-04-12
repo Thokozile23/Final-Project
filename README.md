@@ -147,9 +147,6 @@ Algorithmic bias is rooted in how models are built and trained, often reflecting
 
 ### Ethical Concerns:
 
--  Marginalization of Minority Voices: 
-Efforts to counter popularity bias may inadvertently sideline mainstream content, raising questions about fairness to all creators.
-
 -  Balance Between Diversity and Relevance: 
 Striving for diversity might lead to recommendations that feel irrelevant or forced, potentially frustrating users.
 
