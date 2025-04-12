@@ -156,7 +156,7 @@ Algorithmic bias is rooted in how models are built and trained, often reflecting
 Striving for diversity might lead to recommendations that feel irrelevant or forced, potentially frustrating users.
 
 -  Algorithmic Manipulation: 
-Overcompensation for popularity bias could be exploited by bad actors to artificially amplify niche or low-quality content.
+Overcompensation for popularity bias could be exploited by other people or businesses to artificially amplify niche or low-quality content.
 
 -  Transparency Issues: 
 Users may not fully understand adjustments made to recommendations, raising concerns about opacity in how content is prioritized.
