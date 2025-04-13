@@ -13,7 +13,7 @@
 - **Thokozile Munthali**  
   GitHub: https://github.com/Thokozile23
 
-## Project Scope
+## 📊Project Scope
 
 Our project explores the negative impacts of feedback loops in recommender systems, with a particular focus on how they reinforce and amplify popularity bias. A feedback loop occurs when a user's interactions such as clicks, ratings, and engagement are tracked and recorded as data to inform future recommendations.
 
