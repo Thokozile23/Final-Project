@@ -54,14 +54,9 @@ These two models are analyzed and compared by visualizing their score trends ove
 ---
 ### 🌐 Website Demo (GenAI)
 
-We developed an interactive movie recommendation website using ClaudeAI to visually demonstrate how feedback loops in recommender systems contribute to popularity bias. To create the website and simulation, we created the following prompt and provided it to Claude:
-
-"Create a simple interactive website simulation for movie recommendations. Use real movie titles in a grid layout. Each movie has an initial "popularity" (views or likes). Users can click to "like" movies. The system then updates the user's profile and shows more popular movies in recommendations, reinforcing a popularity bias. Include a visual feedback loop showing how user interactions shape the recommendations over time. Add a bar graph tracking popularity changes of popular vs. niche movies. Also, show how niche movies get recommended less even if they match the user profile. Include simple controls to set how many likes a user gives, and simulate different user profiles (mainstream vs. niche). Keep the UI and logic very simple, ideal for a simulation or classroom demo."
-
-The simulation mimics a user engaging with various types of movie content—especially niche or lesser-known films. Despite this engagement, the "For You" feed continues to prioritize already popular titles, showing how recommender algorithms often override individual preferences in favor of widespread trends.
+We developed an interactive movie recommendation website using ClaudeAI to visually demonstrate how feedback loops in recommender systems contribute to popularity bias. The simulation mimics a user engaging with various types of movie content—especially niche or lesser-known films. Despite this engagement, the "For You" feed continues to prioritize already popular titles, showing how recommender algorithms often override individual preferences in favor of widespread trends.
 
 This behavior highlights how feedback loops restrict content diversity, reinforce the visibility of mainstream items, and make it increasingly difficult for underrepresented or new content to gain traction. The website serves as both a learning tool and a prototype environment to explore interventions that could promote fairer, more inclusive recommendation outcomes.
-
 
 Link to our website can be found below:
 
