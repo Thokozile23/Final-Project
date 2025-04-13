@@ -143,7 +143,11 @@ The simulation plots how each product's score evolves over 20 iterations.
 
 ## Website Demo: Popularity Bias in Action
 
-We developed an interactive simulation using **ClaudeAI** to showcase how popularity bias manifests in recommendation systems.
+We developed an interactive simulation using **ClaudeAI** to showcase how popularity bias manifests in recommendation systems. To initiate the build, we provided ClaudeAI with a structured prompt detailing the desired functionality and user experience. The prompt included specific instructions for simulating a movie recommendation system and highlighting popularity bias:
+
+"Create a simple interactive website simulation for movie recommendations. Use real movie titles in a grid layout. Each movie has an initial "popularity" (views or likes). Users can click to "like" movies. The system then updates the user's profile and shows more popular movies in recommendations, reinforcing a popularity bias. Include a visual feedback loop showing how user interactions shape the recommendations over time. Add a bar graph tracking popularity changes of popular vs. niche movies. Also, show how niche movies get recommended less even if they match the user profile. Include simple controls to set how many likes a user gives, and simulate different user profiles (mainstream vs. niche). Keep the UI and logic very simple, ideal for a simulation or classroom demo."
+
+The simulation operates as follows:
 
 - Users simulate interacting with movies by clicking on them.
 - Despite repeated clicks on niche movies, the system heavily favors **popular content** in its "For You" feed.
