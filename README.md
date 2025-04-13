@@ -1,4 +1,4 @@
-🔁 #**Feedback Loops in Recommender Systems: Bias, Diversity, and Solutions**
+🔁 #Feedback Loops in Recommender Systems: Bias, Diversity, and Solutions
 
 ## Authors:
 - **Elaina Longjohn**  
