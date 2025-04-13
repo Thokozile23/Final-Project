@@ -133,7 +133,7 @@ The simulation plots how each product's score evolves over 20 iterations.
 - In **Model A**, the same few products dominate over time.  
 - In **Model B**, more products stay in the mix due to exploration.
 
-![Alt Text](image_url_or_path)
+![Alt Text](https://github.com/Thokozile23/Final-Project/blob/5ffa8a2cdf6237d209c1a92abf7588b606756a5d/exploration%20picture%20improved.png)
 
 
 ![Alt Text](image_url_or_path)
