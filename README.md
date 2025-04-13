@@ -1,4 +1,5 @@
-# Feedback Loops in Recommender Systems: Bias, Diversity, and Solutions
+🔁 #**Feedback Loops in Recommender Systems: Bias, Diversity, and Solutions**
+
 ## Authors:
 - **Elaina Longjohn**  
   GitHub: https://github.com/elongjohn
@@ -13,18 +14,20 @@
   GitHub: https://github.com/Thokozile23
 
 ## Project Scope
-Our project explores the negative impacts of feedback loops in recommender systems, with a particular focus on how they reinforce and amplify popularity bias. A feedback loop occurs when a user's interactions such as clicks, ratings, and engagement—are tracked and recorded as data to inform future recommendations.
+
+Our project explores the negative impacts of feedback loops in recommender systems, with a particular focus on how they reinforce and amplify popularity bias. A feedback loop occurs when a user's interactions such as clicks, ratings, and engagement are tracked and recorded as data to inform future recommendations.
 
 While this type of personalization can enhance user experience, it often creates self-reinforcing cycles where users are repeatedly exposed to similar content. This process tends to favor popular items, allowing the preferences of the majority to dominate while underrepresenting those of minority or niche groups. As a result, recommendation diversity is reduced, and lesser-known or emerging products struggle to gain visibility. This not only limits user discovery but also perpetuates existing inequalities in the marketplace. 
 
-Our project aims to examine these challenges and propose strategies to reduce popularity bias, ultimately promoting a more equitable recommendation environment, enhancing customer experience, and supporting broader product engagement and long-tail monetization for businesses.
-Our project will explore this issue from both a technical and ethical standpoint. We will examine how algorithmic design contributes to biased outcomes through a detailed simulation. Furthermore, we aim to prototype and test a solution to reduce this bias using a movie website we developed as a testbed.
+We seek to examine these challenges and propose strategies to reduce popularity bias, ultimately promoting a more equitable recommendation environment, enhancing customer experience, and supporting broader product engagement and long-tail monetization for businesses.
+
+We aim explore this issue from both a technical and ethical standpoint. We will examine how algorithmic design contributes to biased outcomes through a detailed simulation. Furthermore, we aim to prototype and test a solution to reduce this bias using a movie website we developed as a testbed.
 
 ## Project Details
 ### 🔍 Problem Statement
 We investigate the major challenge feedback loops in recommender systems create by reinforcing **popularity bias**. Creating a cycle that limits exposure to diverse or niche content, making it harder for new or underrepresented items to be discovered. This imbalance not only affects user satisfaction and engagement but also limits growth opportunities for lesser-known creators or products. Our project addresses this issue by simulating how popularity bias evolves and investigating ways to reduce it, with the goal of promoting fairer, more inclusive, and diverse recommendation systems.
 
-The picture below illustrates the loop cycle eventually leading to bias.
+The picture below illustrates the feedback loop cycle in recommender systems:
 
 <img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
 
