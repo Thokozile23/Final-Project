@@ -12,18 +12,15 @@
 
 - **Thokozile Munthali**  
   GitHub: https://github.com/Thokozile23
-
+---
 ## 📊Project Scope
 
-Our project explores the negative impacts of feedback loops in recommender systems, with a particular focus on how they reinforce and amplify popularity bias. A feedback loop occurs when a user's interactions such as clicks, ratings, and engagement are tracked and recorded as data to inform future recommendations.
+Our project explores the negative impacts of feedback loops in recommender systems, with a particular focus on how they reinforce and amplify popularity bias. A feedback loop occurs when a user's interactions such as clicks, ratings, and engagement are tracked and recorded as data to inform future recommendations.While this type of personalization can enhance user experience, it often creates self-reinforcing cycles where users are repeatedly exposed to similar content. This process tends to favor popular items, allowing the preferences of the majority to dominate while underrepresenting those of minority or niche groups. As a result, recommendation diversity is reduced, and lesser-known or emerging products struggle to gain visibility. 
 
-While this type of personalization can enhance user experience, it often creates self-reinforcing cycles where users are repeatedly exposed to similar content. This process tends to favor popular items, allowing the preferences of the majority to dominate while underrepresenting those of minority or niche groups. As a result, recommendation diversity is reduced, and lesser-known or emerging products struggle to gain visibility. This not only limits user discovery but also perpetuates existing inequalities in the marketplace. 
+This not only limits user discovery but also perpetuates existing inequalities in the marketplace.We seek to examine these challenges and propose strategies to reduce popularity bias, ultimately promoting a more equitable recommendation environment, enhancing customer experience, and supporting broader product engagement and long-tail monetization for businesses.We aim explore this issue from both a technical and ethical standpoint. We will examine how algorithmic design contributes to biased outcomes through a detailed simulation. Furthermore, we aim to prototype and test a solution to reduce this bias using a movie website we developed as a testbed.
 
-We seek to examine these challenges and propose strategies to reduce popularity bias, ultimately promoting a more equitable recommendation environment, enhancing customer experience, and supporting broader product engagement and long-tail monetization for businesses.
-
-We aim explore this issue from both a technical and ethical standpoint. We will examine how algorithmic design contributes to biased outcomes through a detailed simulation. Furthermore, we aim to prototype and test a solution to reduce this bias using a movie website we developed as a testbed.
-
-## Project Details
+---
+## Project Details 📋
 ### 🔍 Problem Statement
 We investigate the major challenge feedback loops in recommender systems create by reinforcing **popularity bias**. Creating a cycle that limits exposure to diverse or niche content, making it harder for new or underrepresented items to be discovered. This imbalance not only affects user satisfaction and engagement but also limits growth opportunities for lesser-known creators or products. Our project addresses this issue by simulating how popularity bias evolves and investigating ways to reduce it, with the goal of promoting fairer, more inclusive, and diverse recommendation systems.
 
@@ -31,12 +28,14 @@ The picture below illustrates the feedback loop cycle in recommender systems:
 
 <img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
 
+---
 ### 🧠 Research Foundation
 Our project is based on a recent academic research focused on identifying and addressing bias in recommender systems. A key paper that informed our work is "**Feedback Loop and Bias Amplification in Recommender Systems**" (2020), published by the ACM Web Conference. This study investigates how feedback loops—where user interactions with recommended content influence future recommendations—can enhance existing biases within the system over time. It highlights that recommender algorithms often overemphasize popular items due to repeated exposure, reinforcing popularity bias and limiting content diversity.
 
 The link to the research paper we selected is:
 📎 [Link to paper](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
 
+---
 ### 🧪 Simulating a Recommender System
 To understand how feedback loops contribute to popularity bias and the lack of diversity in recommender systems, we simulate two models to showcase different behaviors in the recommendation process.
 
@@ -54,6 +53,7 @@ Link to the simulation we created is:
 
 [Go to Simulation Section](#simulating-a-recommender-system)
 
+---
 ### 🌐 Website Demo (GenAI)
 
 We developed an interactive movie recommendation website using by ClaudeAI to visually demonstrate how feedback loops in recommender systems contribute to popularity bias. The simulation mimics a user engaging with various types of movie content—especially niche or lesser-known films. Despite this engagement, the "For You" feed continues to prioritize already popular titles, showing how recommender algorithms often override individual preferences in favor of widespread trends. 
@@ -64,6 +64,7 @@ Link to our website can be found below:
 
 [Go to Website Section](#website-demo-popularity-bias-in-action)
 
+---
 ### ✅ Project Management: GitHub Kanban Board
 
 To effectively manage and track the progress of our project, we utilized a GitHub Project Board. This tool allowed us to break down our tasks and milestones into clear, actionable categories, helping ensure transparency, collaboration, and accountability throughout the project. Our board was organized into several key sections, each representing different stages of the project workflow:
@@ -81,6 +82,7 @@ To effectively manage and track the progress of our project, we utilized a GitHu
 
 [View our Kanban board](https://github.com/users/Thokozile23/projects/8)
 
+---
 ### 🤖 Responsible AI Considerations
 Recommender systems can unintentionally reinforce popularity bias, limit content diversity, and raise ethical concerns around user privacy and manipulation. We explore these risks and highlight simple strategies like boosting diversity, improving transparency, and minimizing data use.
 
@@ -95,7 +97,7 @@ Recommender systems can unintentionally reinforce popularity bias, limit content
 
 [Go to Future Developments Section](#future-developments)
 
-
+---
 ### 🔗 References
 
 Our project is grounded in recent work highlighting how recommender systems amplify bias through feedback loops. These systems tend to favor popular content, often at the expense of diversity and fairness.
