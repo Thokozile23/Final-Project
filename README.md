@@ -69,15 +69,15 @@ Link to our website can be found below:
 
 To effectively manage and track the progress of our project, we utilized a GitHub Project Board. This tool allowed us to break down our tasks into clear, actionable categories, helping ensure transparency, collaboration, and accountability throughout the project. Our board was organized into several key sections, each representing different stages of the project workflow:
 
-1.	Backlog: This section contained tasks and ideas that needed to be explored or completed but hadn’t yet been assigned a priority. These were initially brainstormed tasks, research questions, and any outstanding decisions that could inform the next steps of the project.
-   
-2.	To Do: Once tasks were clearly defined and prioritized, they were moved to this section. These were the tasks ready to be worked on, including activities such as coding, data collection, literature review, and modeling.
-   
-3.	In Progress: Tasks actively being worked on were moved here. For example, developing simulations, writing the project report, or conducting data analysis would appear in this category. This section allowed us to keep track of who was working on what and ensured there was no duplication of effort.
-   
-4.	Review: After tasks were completed, they were moved to this section for peer review and validation. This stage helped ensure the quality and accuracy of our work, with team members reviewing each other's contributions before finalizing them.
-   
-5.	Done: Once tasks passed review and were fully completed, they were moved to the Done section. This gave us a clear view of our progress and allowed us to track the overall completion of project deliverables.
+- Backlog: This section contained tasks and ideas that needed to be explored or completed but hadn’t yet been assigned a priority. These were initially brainstormed tasks, research questions, and any outstanding decisions that could inform the next steps of the project.
+
+- To Do: Once tasks were clearly defined and prioritized, they were moved to this section. These were the tasks ready to be worked on, including activities such as coding, data collection, literature review, and modeling.
+
+- In Progress: Tasks actively being worked on were moved here. For example, developing simulations, writing the project report, or conducting data analysis would appear in this category. This section allowed us to keep track of who was working on what and ensured there was no duplication of effort.
+
+- Review: After tasks were completed, they were moved to this section for peer review and validation. This stage helped ensure the quality and accuracy of our work, with team members reviewing each other's contributions before finalizing them.
+
+- Done: Once tasks passed review and were fully completed, they were moved to the Done section. This gave us a clear view of our progress and allowed us to track the overall completion of project deliverables.
 
 
 [View our Kanban board](https://github.com/users/Thokozile23/projects/8)
