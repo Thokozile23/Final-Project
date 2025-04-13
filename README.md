@@ -69,9 +69,9 @@ To effectively manage and track the progress of our project, we utilized a GitHu
 
 - Backlog: This section contained tasks and ideas that needed to be explored or completed but hadn’t yet been assigned a priority. These were initially brainstormed tasks, research questions, and any outstanding decisions that could inform the next steps of the project.
 
-- To Do: Once tasks were clearly defined and prioritized, they were moved to this section. These were the tasks ready to be worked on, including activities such as coding, data collection, literature review, and modeling.
+- To Do: Once tasks were clearly defined and prioritized, they were moved to this section. These were the tasks ready to be worked on, including activities such as website creation, code demo and creation of the README markdown file.
 
-- In Progress: Tasks actively being worked on were moved here. For example, developing simulations, writing the project report, or conducting data analysis would appear in this category. This section allowed us to keep track of who was working on what and ensured there was no duplication of effort.
+- In Progress: Tasks actively being worked on were moved here. For example, developing the website. This section allowed us to keep track of who was working on what and ensured there was no duplication of effort.
 
 - Review: After tasks were completed, they were moved to this section for peer review and validation. This stage helped ensure the quality and accuracy of our work, with team members reviewing each other's contributions before finalizing them.
 
