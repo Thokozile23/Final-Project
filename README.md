@@ -178,6 +178,7 @@ This bias arises from how recommendations are displayed, with top-listed items r
 Algorithmic bias is rooted in how models are built and trained, often reflecting the flaws in their data. These biases can reinforce stereotypes or overemphasize certain user patterns, limiting diversity in recommendations.
 
 ![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
+
 (Di Noia et al., 2022, p. 70)
 
 ### Ethical Concerns:
