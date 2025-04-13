@@ -133,6 +133,13 @@ The simulation plots how each product's score evolves over 20 iterations.
 - In **Model A**, the same few products dominate over time.  
 - In **Model B**, more products stay in the mix due to exploration.
 
+![Alt Text](image_url_or_path)
+
+
+![Alt Text](image_url_or_path)
+
+
+
 ## Website Demo: Popularity Bias in Action
 
 We developed an interactive simulation using **ClaudeAI** to showcase how popularity bias manifests in recommendation systems.
