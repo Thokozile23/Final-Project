@@ -49,8 +49,6 @@ Model B introduces an element of exploration, where the system occasionally reco
 
 These two models are analyzed and compared by visualizing their score trends over time, providing insights into how feedback loops influence recommendation dynamics. The findings from these simulations will guide our understanding of how to reduce popularity bias and design fairer, more diverse recommender systems.
 
-Link to the simulation we created is:
-
 [Go to Simulation Section](#simulating-a-recommender-system)
 
 ---
