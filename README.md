@@ -13,50 +13,68 @@
   GitHub: https://github.com/author2
 
 ## Project Scope
-Our project examines the negative effects of feedback loops in recommender systems. A feedback loop is a cycle where a user’s interactions with recommended items influence their future recommendations. This happens because every action a user takes—whether it's clicking, rating, or engaging with content—gets recorded in their profile, which then leads to more similar recommendations in the future.
+Our project explores the negative impacts of feedback loops in recommender systems, with a particular focus on how they reinforce and amplify popularity bias. A feedback loop occurs when a user's interactions such as clicks, ratings, and engagement—are tracked and recorded as data to inform future recommendations.
 
-The negative impacts of these feedback loops are significant, particularly the amplification of popularity bias. In this scenario, the preferences of the majority overpower those of minority groups, causing the recommender system to focus heavily on a narrow set of popular items. This limits both the diversity of recommendations and the potential for users to discover new, lesser-known content.
+While this type of personalization can enhance user experience, it often creates self-reinforcing cycles where users are repeatedly exposed to similar content. This process tends to favor popular items, allowing the preferences of the majority to dominate while underrepresenting those of minority or niche groups. As a result, recommendation diversity is reduced, and lesser-known or emerging products struggle to gain visibility. This not only limits user discovery but also perpetuates existing inequalities in the marketplace. 
 
-As a result, minority preferences are often drowned out by the mainstream, making it harder for niche or emerging products to get noticed. Through our project, we aim to address this issue by finding a way to reduce popularity bias and create a more level playing field for all products, free from the inherent biases built into recommender systems.
-
+Our project aims to examine these challenges and propose strategies to reduce popularity bias, ultimately promoting a more equitable recommendation environment, enhancing customer experience, and supporting broader product engagement and long-tail monetization for businesses.
+Our project will explore this issue from both a technical and ethical standpoint. We will examine how algorithmic design contributes to biased outcomes through a detailed simulation. Furthermore, we aim to prototype and test a solution to reduce this bias using a movie website we developed as a testbed.
 
 ## Project Details
 ### 🔍 Problem Statement
+We investigate the major challenge feedback loops in recommender systems create by reinforcing **popularity bias**. Creating a cycle that limits exposure to diverse or niche content, making it harder for new or underrepresented items to be discovered. This imbalance not only affects user satisfaction and engagement but also limits growth opportunities for lesser-known creators or products. Our project addresses this issue by simulating how popularity bias evolves and investigating ways to reduce it, with the goal of promoting fairer, more inclusive, and diverse recommendation systems.
 
-We investigate the issue of feedback loops in recommender systems, where user interactions with popular content continuously reinforce the visibility of that content. This dynamic leads to **popularity bias**, which suppresses the discovery of niche items and limits recommendation diversity.
-Our goal is to simulate and measure this bias—and explore ways to reduce it, creating fairer and more diverse recommendation environments.
+The picture below illustrates different kinds of bias that stem from recommender systems.
 
 <img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
 
 ### 🧠 Research Foundation
-We grounded our project in recent research on recommender system bias mitigation. The paper we selected is:
+Our project is based on recent academic research focused on identifying and addressing bias in recommender systems. A key paper that informed our work is "**Feedback Loop and Bias Amplification in Recommender Systems**" (2020), published by the ACM Web Conference. This study investigates how feedback loops—where user interactions with recommended content influence future recommendations—can amplify existing biases within the system over time. It highlights that recommender algorithms often overemphasize popular items due to repeated exposure, reinforcing popularity bias and limiting content diversity.
 
-**"Feedback Loop and Bias Amplification in Recommender Systems" (2020)** – Proceedings of the ACM Web Conference  
+The link to the research paper we selected is:
 📎 [Link to paper](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
 
-This work provides both a theoretical and experimental framework for identifying and mitigating popularity bias through reweighting and counterfactual approaches.
-
 ### 🧪 Simulating a Recommender System
-Two models show how feedback loops amplify popularity.
+To understand how feedback loops contribute to popularity bias and the lack of diversity in recommender systems, we simulate two models to showcase contrasting behaviors in the recommendation process.
 
-Model A: Repeats top picks → less diversity.
+**Model A**: Repeated Exposure to Top Picks
 
-Model B: Adds exploration → more balance.
+In this model, the recommender system continually prioritizes the most popular items based on user interactions, leading to a cycle where the top picks are repeatedly recommended to users. As a result, the system reinforces existing preferences, making it increasingly difficult for lesser-known or niche items to gain visibility. Over time, this causes a reduction in the diversity of recommendations, with users being exposed primarily to mainstream content. The model's score trends show a clear preference for popular items, with a steady decline in the exploration of new content.
 
-Score trends are visualized over time.
+**Model B**: Incorporating Exploration
+
+Model B introduces an element of exploration, where the system occasionally recommends less popular or new items alongside the top picks. This approach is designed to break the cycle of popularity reinforcement and encourage a more balanced distribution of recommendations. By integrating exploration, the system promotes greater content diversity and provides users with a wider range of items to discover. In this model, score trends over time demonstrate a more balanced recommendation pattern, where niche and emerging items receive more attention, improving both the variety of recommendations and user engagement with new content.
+
+These two models are analyzed and compared by visualizing their score trends over time, providing insights into how feedback loops influence recommendation dynamics. The findings from these simulations will guide our understanding of how to reduce popularity bias and design fairer, more diverse recommender systems.
+
+Link to the simulation we created is:
 
 [Go to Simulation Section](#simulating-a-recommender-system)
 
 ### 🌐 Website Demo (GenAI)
 
-We built a simulation using ClaudeAI to show how recommender systems amplify popularity bias.  
-Even when users repeatedly engage with niche movies, the "For You" feed still favors popular items.  
-This illustrates how feedback loops limit content diversity and make it harder for underrepresented items to break through.
+We developed an interactive movie recommendation website using by ClaudeAI to visually demonstrate how feedback loops in recommender systems contribute to popularity bias. The simulation mimics a user engaging with various types of movie content—especially niche or lesser-known films. Despite this engagement, the "For You" feed continues to prioritize already popular titles, showing how recommender algorithms often override individual preferences in favor of widespread trends. 
+
+This behavior highlights how feedback loops restrict content diversity, reinforce the visibility of mainstream items, and make it increasingly difficult for underrepresented or new content to gain traction. The website serves as both a learning tool and a prototype environment to explore interventions that could promote fairer, more inclusive recommendation outcomes.
+
+Link to our website can be found below:
 
 [Go to Website Section](#website-demo-popularity-bias-in-action)
 
 ### ✅ Project Management: GitHub Kanban Board
-We tracked our work using a **GitHub Project Board** organized into several categories
+
+To effectively manage and track the progress of our project, we utilized a GitHub Project Board. This tool allowed us to break down our tasks and milestones into clear, actionable categories, helping ensure transparency, collaboration, and accountability throughout the project. Our board was organized into several key sections, each representing different stages of the project workflow:
+
+1.	Backlog: This section contained tasks and ideas that needed to be explored or completed but hadn’t yet been assigned a priority. These were initially brainstormed tasks, research questions, and any outstanding decisions that could inform the next steps of the project.
+   
+2.	To Do: Once tasks were clearly defined and prioritized, they were moved to this section. These were the tasks ready to be worked on, including activities such as coding, data collection, literature review, and modeling.
+   
+3.	In Progress: Tasks actively being worked on were moved here. For example, developing simulations, writing the project report, or conducting data analysis would appear in this category. This section allowed us to keep track of who was working on what and ensured there was no duplication of effort.
+   
+4.	Review: After tasks were completed, they were moved to this section for peer review and validation. This stage helped ensure the quality and accuracy of our work, with team members reviewing each other's contributions before finalizing them.
+   
+5.	Done: Once tasks passed review and were fully completed, they were moved to the Done section. This gave us a clear view of our progress and allowed us to track the overall completion of project deliverables.
+
 
 [View our Kanban board](https://github.com/users/Thokozile23/projects/8)
 
