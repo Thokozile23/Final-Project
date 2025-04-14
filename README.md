@@ -28,6 +28,7 @@ We investigate the major challenge feedback loops in recommender systems create 
 The picture below illustrates the feedback loop cycle in recommender systems:
 
 <img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
+
 **Image source: Zhang et al., 2021*
 
 
