@@ -193,11 +193,9 @@ Recommenders aren’t always fair, they inadvertently reinforce existing biases,
 
 
 
-<p align="center">
-  <img src="ChatGPT%20Image%20Apr%2013%2C%202025%2C%2011_23_35%20PM.png" alt="Exploration vs Exploitation Visualization" width="500"/>
-</p>
+![Simulation output showing business implications](ChatGPT%20Image%20Apr%2013%2C%202025%2C%2011_23_35%20PM.png)
 
-<p align="center"><em>Figure: Visualization created using ChatGPT to simulate exploration vs. exploitation in recommendation systems</em></p>
+*Figure: Visualization generated using ChatGPT to illustrate business implications in recommender systems.*
 
 ---
 
