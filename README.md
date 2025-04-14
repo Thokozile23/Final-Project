@@ -21,6 +21,7 @@ This not only limits user discovery but also perpetuates existing inequalities i
 
 ---
 ## Project Details 📋
+
 ### 🔍 Problem Statement
 We investigate the major challenge feedback loops in recommender systems create by reinforcing **popularity bias**. Creating a cycle that limits exposure to diverse or niche content. This imbalance not only affects user satisfaction and engagement but also limits growth opportunities for lesser-known creators or products. Our project addresses this issue by simulating how popularity bias evolves and investigating ways to reduce it, with the goal of promoting fairer, more inclusive, and diverse recommendation systems.
 
@@ -110,6 +111,7 @@ We explored multiple peer-reviewed studies, including:
 ---
 
 ## Simulating a Recommender System
+
 ### 1. Dataset & Setup
 We use a simulated dataset of cereal brand "products" with initial randomized popularity scores to mimic the behavior of user-item interactions in a recommender system. This allows us to focus on the **structure and effects** of feedback loops without needing user identifiers.
 
@@ -140,7 +142,6 @@ The simulation plots how each product's score evolves over 20 iterations.
 ![Alt Text](https://github.com/Thokozile23/Final-Project/blob/5ffa8a2cdf6237d209c1a92abf7588b606756a5d/exploration%20picture%20improved.png)
 
 
-
 ## Website Demo: Popularity Bias in Action
 
 We developed an interactive simulation using **ClaudeAI** to showcase how popularity bias manifests in recommendation systems. To initiate the build, we provided ClaudeAI with a structured prompt detailing the desired functionality and user experience. The prompt included specific instructions for simulating a movie recommendation system and highlighting popularity bias:
@@ -160,12 +161,31 @@ The tool highlights how recommender systems can unintentionally limit discovery 
 
 ## Business Implications:
 
-Recommender systems play a vital role in modern business, influencing everything from online shopping and entertainment choices to chatbots and fantasy sports. As technology continues to advance, their significance in daily life and business strategy cannot be overstated. Companies depend on these systems to deliver personalized, data-driven suggestions that help users make informed decisions—whether about purchases, customer engagement, or even lifestyle changes. Exceptional recommender systems are the foundation of some of the biggest businesses in the world including Amazon, Netflix, and Google, which help them generate a combined market cap of over $4.16 trillion. Knowing how to use recommenders and what they do can be a game-changing tool for businesses, big or small. Understanding how recommender systems work and how to leverage them can be a transformative asset for businesses of any size. However, it's important to recognize their limitations. Recommenders aren’t always fair, they inadvertently reinforce existing biases, shaping perceptions that can change how a person sees a product or business, leading to favoritism or exclusion. Therefore, businesses must carefully weigh the benefits against the risks and make thoughtful decisions about their implementation. Recommenders are here to stay and regardless of the challenges that they propose. To remain competitive and customer-focused, businesses need to understand what recommenders are, how they function, and how best to use them in alignment with their goals. 
+### Role of Recommenders 
+Recommender systems play a vital role in modern business, influencing everything from online shopping and entertainment choices to chatbots and fantasy sports. As technology continues to advance, their significance in daily life and business strategy cannot be overstated. Companies depend on these systems to deliver personalized, data-driven suggestions that help users make informed decisions—whether about purchases, customer engagement, or even lifestyle changes. 
+
+### Business Applications
+Exceptional recommender systems are the foundation of some of the biggest businesses in the world including Amazon, Netflix, and Google, which help them generate a combined market cap of over $4.16 trillion. Companies use recommender systems to understand customers, their preferences, and their tendencies, so that they can enhance the services they provide to that customer. These insights enable businesses to deliver personalized experiences, increase customer retention, and drive revenue growth through more targeted offerings. Knowing how to use recommenders and what they do can be a game-changing tool for businesses, big or small. Understanding how recommender systems work and how to leverage them can be a transformative asset for businesses of any size. However, it's important to recognize their limitations. 
+
+### Limitations of Recommenders 
+Recommenders aren’t always fair, they inadvertently reinforce existing biases, shaping perceptions that can change how a person sees a product or business, leading to favoritism or exclusion. Therefore, businesses must carefully weigh the benefits against the risks and make thoughtful decisions about their implementation. Recommenders are here to stay and regardless of the challenges that they propose. To remain competitive and customer-focused, businesses need to understand what recommenders are, how they function, and how best to use them in alignment with their goals. 
 
 
-## Responsible AI considerations:
+### Keys to Successful Business Utilization and Integration: 
+  1. **Understand the Technology:** Have a clear understanding of how recommender systems work in order to leverage them effectively.
 
-### Understanding Recommender System Biases
+  2. **Strategic Alignment:** Determine how you want to use recommenders in ways that align with broader business and organizaional goals.
+
+  3. **Data-Driven Insights:** Use recommender systems to deliver tailored, insightful suggestions that enhance customer decision-making and engagement.
+
+  4. **Be Aware of Bias and Limitations:** Recognize and address the inherent biases and consumer concerns in recommender systems to avoid bias and ethical issues.
+
+  5. **Balanced Evaluation:** Thoughtfully weigh the advantages of recommenders versus the potential risks to ensure effective and ethical implementation.
+
+
+## Responsible AI Considerations:
+
+### System Biases
 
 Understanding the biases present in recommender systems (RSs) is crucial, as these biases can significantly impact the fairness, accuracy, and trustworthiness of recommendations. The biases within RSs can be categorized into four main types: data biases, cognitive biases, position/presentation biases, and algorithmic/model biases.
 
@@ -185,7 +205,7 @@ Algorithmic bias is rooted in how models are built and trained, often reflecting
 
 (Di Noia et al., 2022, p. 70)
 
-### Ethical Concerns:
+### Ethical Concerns
 
 -  Balance Between Diversity and Relevance: 
 Striving for diversity might lead to recommendations that feel irrelevant or forced, potentially frustrating users.
@@ -200,7 +220,7 @@ Users may not fully understand adjustments made to recommendations, raising conc
 Correcting one form of bias (popularity) might unintentionally introduce new biases, such as favoring specific minority groups over others.
 
 
-## What's next? Help us envision future developments
+## What's next? Help us Envision the Future of Recommenders!
 
 ## Future Developments
 
@@ -215,6 +235,7 @@ Lead by example by integrating cutting-edge, privacy-preserving machine learning
 
 ### 4. **Offer Transparent Metrics**
 Develop a dashboard to display how recommendations are generated, showcasing the balance between popularity, diversity, and user preferences.
+
 
 ## References
 
@@ -235,3 +256,14 @@ Develop a dashboard to display how recommendations are generated, showcasing the
   In *Proceedings of the 15th ACM Conference on Recommender Systems (RecSys '21)*, pp. 825–827.  
   [https://doi.org/10.1145/3460231.3473321](https://doi.org/10.1145/3460231.3473321)  
   **Summary:** Provides a tutorial-style overview of biases in recommendation systems and outlines methods for mitigating them to improve fairness.
+
+### Supplemental Information
+
+- https://www.cbc.ca/news/business/ai-generative-business-money-revenue-1.7264014 -- **CBC: Does AI Actually Make Money**
+- https://www.bain.com/insights/which-industries-and-countries-are-getting-the-most-out-of-generative-ai-snap-chart/ -- **Bain: Which Countries & Industries Are Getiing the Most Out of      Generative AI**
+- https://www.ama.org/2020/11/24/when-consumers-trust-ai-recommendations-or-resist-them/ -- **American Marketing Association - When to Trust AI Recommenders**
+- https://www.forbes.com/sites/sap/2024/11/26/how-ai-driven-recommenders-elevate-support-experiences/ -- **Forbes: How Recommenders Elevate Support Experiences**
+- https://www.mordorintelligence.com/industry-reports/fantasy-sports-market -- **Mordor Intelligence: Fantasy Sports Market**
+- https://www.fortunebusinessinsights.com/fintech-market-108641 -- **Fortune Business Insights: FinTech Market Overview**
+- https://www.mordorintelligence.com/industry-reports/us-fintech-market -- **Mordor Intelligence: FinTech Market**
+
