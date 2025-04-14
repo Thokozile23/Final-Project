@@ -43,7 +43,7 @@ The link to the research paper we selected is:
 📎 [Link to paper](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
 
 ---
-### 🧪 Simulating a Recommender System
+### 💻 Simulating a Recommender System
 To understand how feedback loops contribute to popularity bias and the lack of diversity in recommender systems, we simulate two models to showcase different behaviors in the recommendation process.
 
 **Model A**: Repeated Exposure to Top Picks
@@ -70,7 +70,7 @@ Link to our website can be found below:
 [Go to Website Section](#website-demo-popularity-bias-in-action)
 
 ---
-### ✅ Project Management: GitHub Kanban Board
+### 🗂️ Project Management: GitHub Kanban Board
 
 To effectively manage and track the progress of our project, we utilized a GitHub Project Board. This tool allowed us to break down our tasks into clear, actionable categories, helping ensure transparency, collaboration, and accountability throughout the project. Our board was organized into several key sections, each representing different stages of the project workflow:
 
@@ -88,7 +88,7 @@ To effectively manage and track the progress of our project, we utilized a GitHu
 [View our Kanban board](https://github.com/users/Thokozile23/projects/8)
 
 ---
-### 🤖 Business Implications
+### 💼 Business Implications
 Recommender systems can unintentionally reinforce popularity bias, limit content diversity, and raise ethical concerns around user privacy and manipulation. We explore these risks and highlight simple strategies like boosting diversity, improving transparency, and minimizing data use.
 
 [Go to Business Implications Section](#Business-Implications)
@@ -109,7 +109,7 @@ Recommender systems can unintentionally reinforce popularity bias, limit content
 [Go to Future Developments Section](#Future-Developments)
 
 ---
-### 🔗 References
+### 📚 References
 
 Our project is grounded in recent work highlighting how recommender systems amplify bias through feedback loops. These systems tend to favor popular content, often at the expense of diversity and fairness.
 
@@ -118,7 +118,7 @@ We explored multiple peer-reviewed studies, including:
 - Guidelines for aligning recommender design with European AI regulations
 - A tutorial on identifying and mitigating common algorithmic biases
 
-🔗 [See full references](#references)
+[See full References](#References)
 
 ---
 
@@ -238,8 +238,6 @@ Correcting one form of bias (popularity) might unintentionally introduce new bia
 
 ---
 
-## What's Next? Help us Envision the Future of Recommenders!
-
 ## Future Developments
 
 ### 1. **Integrate Enhanced Diversity Algorithms**
@@ -253,6 +251,9 @@ Lead by example by integrating cutting-edge, privacy-preserving machine learning
 
 ### 4. **Offer Transparent Metrics**
 Develop a dashboard to display how recommendations are generated, showcasing the balance between popularity, diversity, and user preferences.
+
+
+## What's Next? Help us Envision the Future of Recommenders!
 
 ---
 
