@@ -193,7 +193,7 @@ Recommenders aren’t always fair, they inadvertently reinforce existing biases,
 
 
 
-![Simulation output showing business implications](ChatGPT%20Image%20Apr%2013%2C%202025%2C%2011_23_35%20PM.png)
+<img src="ChatGPT%20Image%20Apr%2013%2C%202025%2C%2011_23_35%20PM.png" alt="Simulation output showing business implications" width="500"/>
 
 *Figure: Visualization generated using ChatGPT to illustrate business implications in recommender systems.*
 
