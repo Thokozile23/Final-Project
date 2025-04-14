@@ -125,31 +125,35 @@ We explored multiple peer-reviewed studies, including:
 [See full References](#References)
 
 ---
-
 ## Simulating a Recommender System
 
+To explore how feedback loops influence recommender systems—especially in reinforcing popularity bias and limiting diversity—we designed two contrasting models that simulate different algorithmic behaviors. These models help illustrate how small design decisions can significantly impact the visibility and variety of recommended content.
+
 ### 1. Dataset & Setup
-We use a simulated dataset of cereal brand "products" with initial randomized popularity scores to mimic the behavior of user-item interactions in a recommender system. This allows us to focus on the **structure and effects** of feedback loops without needing user identifiers.
+
+We use a simulated dataset of cereal brand "products," each assigned a randomized popularity score at initialization. This abstract representation allows us to mimic user-item interactions without relying on real-world user identifiers or behavior logs. The controlled setup isolates the effects of algorithmic feedback loops, giving us clearer insight into how certain recommendation strategies can either narrow or expand content diversity over time.
 
 ### 2. Feedback Loop Simulations
 
 We created two models to compare behavior:
 
 - **Model A: No Exploration**  
-  - Recommends the top 4 products repeatedly based on their score.
-  - Simulates how recommender systems reinforce popular items.
-  
+  - Recommends the top 4 products repeatedly based on their score.  
+  - Reflects a pure exploitation strategy, where popular items are reinforced through repeated exposure.  
+  - Simulates how recommender systems naturally favor already-popular content, limiting visibility of lesser-known items.
+
 - **Model B: With Exploration Boosts**  
-  - Recommends the top 4 products, but also adds small boosts to 2 low-performing products each round.
-  - Simulates efforts to promote diversity and disrupt the feedback loop.
+  - Recommends the top 4 products, but also adds small temporary boosts to 2 low-performing products each round.  
+  - Encourages exploration by breaking the cycle of popularity reinforcement.  
+  - Simulates efforts to promote diversity by periodically surfacing less popular or emerging items.
 
 ➡️ **[Run the simulation → Final Project Sample Code.py](./Final_Project_Sample_Code.py)**
 
 ### 3. Visualization
 
 The simulation plots how each product's score evolves over 20 iterations.  
-- In **Model A**, the same few products dominate over time.  
-- In **Model B**, more products stay in the mix due to exploration.
+- In **Model A**, the same few products dominate over time due to constant reinforcement.  
+- In **Model B**, more products stay in circulation thanks to occasional boosts, resulting in a more balanced and diverse recommendation landscape.
 
 # Model A: Feedbackloop without exploration
 ![Alt Text](https://github.com/Thokozile23/Final-Project/blob/9792dc84ddb20e6288ccb672ad4979e9873934b6/feedback%20loop%20without%20exploration.png)
