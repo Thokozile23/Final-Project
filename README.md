@@ -29,7 +29,7 @@ The picture below illustrates the feedback loop cycle in recommender systems:
 
 <img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
 
-**Image source: Zhang et al., 2021**
+**Image source: Zhang et al., 2021*
 
 
 
@@ -220,7 +220,7 @@ Algorithmic bias is rooted in how models are built and trained, often reflecting
 
 ![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
 
-## Image Source: Di Noia et al., 2022, p. 70 **
+## Image Source: Di Noia et al., 2022, p. 70 *
 
 ### Ethical Concerns
 
