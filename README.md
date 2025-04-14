@@ -48,7 +48,7 @@ The link to the research paper we selected is:
 
 ---
 ### 💻 Simulating a Recommender System
-To explore how recommender systems evolve and influence content visibility, we built a lightweight simulation that models product engagement over time using fictional cereal brands as stand-ins for real-world items.
+To explore how recommender systems evolve and influence content visibility, we built a lightweight simulation that models product engagement over time using cereal brands.
 
 Rather than tracking individual users, our simulation looks at **aggregate interactions**, where recommended products receive popularity "boosts" based on user clicks. This approach highlights how **algorithmic decisions**—even in simplified environments—can create powerful feedback loops.
 
