@@ -141,6 +141,7 @@ The simulation plots how each product's score evolves over 20 iterations.
 # Model B: Feedbackloop with exploration 
 ![Alt Text](https://github.com/Thokozile23/Final-Project/blob/5ffa8a2cdf6237d209c1a92abf7588b606756a5d/exploration%20picture%20improved.png)
 
+---
 
 ## Website Demo: Popularity Bias in Action
 
@@ -158,6 +159,8 @@ The simulation operates as follows:
 🔗 [Try the Demo – Popularity Bias & Feedback Loops Simulation](https://claude.site/artifacts/ccbba4e1-d462-4835-a628-b096dd31fec1)
 
 The tool highlights how recommender systems can unintentionally limit discovery and diversity, even when user preferences shift toward niche interests.
+
+---
 
 ## Business Implications:
 
@@ -182,6 +185,7 @@ Recommenders aren’t always fair, they inadvertently reinforce existing biases,
 
   5. **Balanced Evaluation:** Thoughtfully weigh the advantages of recommenders versus the potential risks to ensure effective and ethical implementation.
 
+---
 
 ## Responsible AI Considerations:
 
@@ -219,6 +223,7 @@ Users may not fully understand adjustments made to recommendations, raising conc
 - Bias Trade-offs: 
 Correcting one form of bias (popularity) might unintentionally introduce new biases, such as favoring specific minority groups over others.
 
+---
 
 ## What's next? Help us Envision the Future of Recommenders!
 
@@ -258,7 +263,6 @@ Develop a dashboard to display how recommendations are generated, showcasing the
   **Summary:** Provides a tutorial-style overview of biases in recommendation systems and outlines methods for mitigating them to improve fairness.
 
 ### Supplemental Information
-
 - https://www.cbc.ca/news/business/ai-generative-business-money-revenue-1.7264014 -- **CBC: Does AI Actually Make Money**
 - https://www.bain.com/insights/which-industries-and-countries-are-getting-the-most-out-of-generative-ai-snap-chart/ -- **Bain: Which Countries & Industries Are Getiing the Most Out of      Generative AI**
 - https://www.ama.org/2020/11/24/when-consumers-trust-ai-recommendations-or-resist-them/ -- **American Marketing Association - When to Trust AI Recommenders**
