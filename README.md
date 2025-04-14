@@ -37,14 +37,13 @@ The picture below illustrates the feedback loop cycle in recommender systems:
 ### 🧠 Research Foundation
 Our project is based on a recent academic research focused on identifying and addressing bias in recommender systems. A key paper that informed our work is "**Feedback Loop and Bias Amplification in Recommender Systems**" (2020), published by the ACM Web Conference. This study investigates how feedback loops where user interactions with recommended content, influence future recommendations and can enhance existing biases within the system over time. It highlights that recommender algorithms often overemphasize popular items due to repeated exposure, reinforcing popularity bias and limiting content diversity.
 
-Some key concepts we focus on in our project include **popularity bias**, which arises from feedback loops that cause systems to over-recommend popular items while underexposing niche content. **Feedback loops** form when user interactions reinforce existing recommendations, gradually amplifying bias.
+Our focus was on key concepts particulary **popularity bias**, which arises from feedback loops that cause systems to over-recommend popular items while underexposing niche content. **Feedback loops** form when user interactions reinforce existing recommendations, gradually amplifying bias.
 
 The paper highlights several core issues caused by feedback loops: reduced overall diversity in recommendations, shifts in user preferences, increased homogenization of user experiences, and disproportionate effects on minority users—who often receive less personalized and more biased recommendations.
 
 These concepts and challenges directly inspired our project and shaped our approach to identifying and driving change within recommendation systems.
 
-The link to the research paper we selected is:
-📎 [Link to paper](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
+[Link to Research Paper](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
 
 
 ### 💻 Simulating a Recommender System
@@ -57,7 +56,6 @@ We simulate and compare two common strategies:
 - One that occasionally introduces less popular items to encourage **exploration**.
 
 This setup helps us visualize the impact of feedback loops on diversity, and explore how small interventions might **promote fairness** and reduce popularity bias in recommender systems.
-
 
 [Go to Simulation Section](#simulating-a-recommender-system)
 
@@ -76,17 +74,6 @@ Link to our website can be found below:
 ### 🗂️ Project Management: GitHub Kanban Board
 
 To effectively manage and track the progress of our project, we utilized a GitHub Project Board. This tool allowed us to break down our tasks into clear, actionable categories, helping ensure transparency, collaboration, and accountability throughout the project. Our board was organized into several key sections, each representing different stages of the project workflow:
-
-- Backlog: This section contained tasks and ideas that needed to be explored or completed but hadn’t yet been assigned a priority. These were initially brainstormed tasks, research questions, and any outstanding decisions that could inform the next steps of the project.
-
-- To Do: Once tasks were clearly defined and prioritized, they were moved to this section. These were the tasks ready to be worked on, including activities such as website creation, code demo and creation of the README markdown file.
-
-- In Progress: Tasks actively being worked on were moved here. For example, developing the website. This section allowed us to keep track of who was working on what and ensured there was no duplication of effort.
-
-- Review: After tasks were completed, they were moved to this section for peer review and validation. This stage helped ensure the quality and accuracy of our work, with team members reviewing each other's contributions before finalizing them.
-
-- Done: Once tasks passed review and were fully completed, they were moved to the Done section. This gave us a clear view of our progress and allowed us to track the overall completion of project deliverables.
-
 
 [View our Kanban board](https://github.com/users/Thokozile23/projects/8)
 
