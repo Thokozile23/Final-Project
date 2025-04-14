@@ -189,6 +189,8 @@ Recommenders aren’t always fair, they inadvertently reinforce existing biases,
   **4. Be Aware of Bias and Limitations:** Recognize and address the inherent biases and consumer concerns in recommender systems to avoid bias and ethical issues.
 
   **5. Balanced Evaluation:** Thoughtfully weigh the advantages of recommenders versus the potential risks to ensure effective and ethical implementation.
+  
+![Alt Text](your-image-name.png)
 
 ---
 
