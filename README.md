@@ -168,7 +168,7 @@ The tool highlights how recommender systems can unintentionally limit discovery 
 
 ---
 
-## Business Implications:
+## Business Implications
 
 ### Role of Recommenders 
 Recommender systems play a vital role in modern business, influencing everything from online shopping and entertainment choices to chatbots and fantasy sports. As technology continues to advance, their significance in daily life and business strategy cannot be overstated. Companies depend on these systems to deliver personalized, data-driven suggestions that help users make informed decisions—whether about purchases, customer engagement, or even lifestyle changes. 
@@ -193,7 +193,7 @@ Recommenders aren’t always fair, they inadvertently reinforce existing biases,
 
 ---
 
-## Responsible AI Considerations:
+## Responsible AI Considerations
 
 ### System Biases
 
@@ -210,6 +210,7 @@ This bias arises from how recommendations are displayed, with top-listed items r
 
 - **Algorithmic/Model Bias:**
 Algorithmic bias is rooted in how models are built and trained, often reflecting the flaws in their data. These biases can reinforce stereotypes or overemphasize certain user patterns, limiting diversity in recommendations.
+
 
 ![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
 
@@ -231,7 +232,7 @@ Correcting one form of bias (popularity) might unintentionally introduce new bia
 
 ---
 
-## What's next? Help us Envision the Future of Recommenders!
+## What's Next? Help us Envision the Future of Recommenders!
 
 ## Future Developments
 
