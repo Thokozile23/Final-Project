@@ -85,13 +85,13 @@ To effectively manage and track the progress of our project, we utilized a GitHu
 ### 🤖 Business Implications
 Recommender systems can unintentionally reinforce popularity bias, limit content diversity, and raise ethical concerns around user privacy and manipulation. We explore these risks and highlight simple strategies like boosting diversity, improving transparency, and minimizing data use.
 
-[Go to Responsible AI Section](#Business-Implications)
+[Go to Business Implications Section](#Business-Implications)
 
 
 ### 🤖 Responsible AI Considerations
 Recommender systems can unintentionally reinforce popularity bias, limit content diversity, and raise ethical concerns around user privacy and manipulation. We explore these risks and highlight simple strategies like boosting diversity, improving transparency, and minimizing data use.
 
-[Go to Responsible AI Section](#responsible-ai-considerations-recommender-system-biases)
+[Go to Responsible AI Section](#Responsible-AI-Considerations)
 
 ### 🚀 Future Developments
 
@@ -100,7 +100,7 @@ Recommender systems can unintentionally reinforce popularity bias, limit content
 - Explore privacy-first AI (e.g., federated learning).
 - Show transparent metrics on how suggestions are made.
 
-[Go to Future Developments Section](#future-developments)
+[Go to Future Developments Section](#Future-Developments)
 
 ---
 ### 🔗 References
