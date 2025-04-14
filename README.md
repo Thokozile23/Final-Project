@@ -190,7 +190,8 @@ Recommenders aren’t always fair, they inadvertently reinforce existing biases,
 
   **5. Balanced Evaluation:** Thoughtfully weigh the advantages of recommenders versus the potential risks to ensure effective and ethical implementation.
   
-![ChatGPT simulation result](ChatGPT%20Image%20Apr%2013%2C%202025%2C%2011_23_35%20PM.png)
+<img src="ChatGPT%20Image%20Apr%2013%2C%202025%2C%2011_23_35%20PM.png" alt="ChatGPT simulation result" width="700"/>
+
 
 
 ---
