@@ -271,11 +271,11 @@ Develop a dashboard to display how recommendations are generated, showcasing the
   **Summary:** Provides a tutorial-style overview of biases in recommendation systems and outlines methods for mitigating them to improve fairness.
 
 ### Supplemental Information
-- https://www.cbc.ca/news/business/ai-generative-business-money-revenue-1.7264014 -- **CBC: Does AI Actually Make Money**
-- https://www.bain.com/insights/which-industries-and-countries-are-getting-the-most-out-of-generative-ai-snap-chart/ -- **Bain: Which Countries & Industries Are Getiing the Most Out of      Generative AI**
-- https://www.ama.org/2020/11/24/when-consumers-trust-ai-recommendations-or-resist-them/ -- **American Marketing Association - When to Trust AI Recommenders**
-- https://www.forbes.com/sites/sap/2024/11/26/how-ai-driven-recommenders-elevate-support-experiences/ -- **Forbes: How Recommenders Elevate Support Experiences**
-- https://www.mordorintelligence.com/industry-reports/fantasy-sports-market -- **Mordor Intelligence: Fantasy Sports Market**
-- https://www.fortunebusinessinsights.com/fintech-market-108641 -- **Fortune Business Insights: FinTech Market Overview**
-- https://www.mordorintelligence.com/industry-reports/us-fintech-market -- **Mordor Intelligence: FinTech Market**
+- **CBC: Does AI Actually Make Money** -- https://www.cbc.ca/news/business/ai-generative-business-money-revenue-1.7264014
+- **Bain: Which Countries & Industries Are Getting the Most Out of Generative AI** -- https://www.bain.com/insights/which-industries-and-countries-are-getting-the-most-out-of-generative-    ai-snap-chart/
+- **American Marketing Association: When to Trust AI Recommenders** -- https://www.ama.org/2020/11/24/when-consumers-trust-ai-recommendations-or-resist-them/ 
+- **Forbes: How Recommenders Elevate Support Experiences** -- https://www.forbes.com/sites/sap/2024/11/26/how-ai-driven-recommenders-elevate-support-experiences/
+- **Mordor Intelligence: Fantasy Sports Market** -- https://www.mordorintelligence.com/industry-reports/fantasy-sports-market 
+- **Fortune Business Insights: FinTech Market Overview** -- https://www.fortunebusinessinsights.com/fintech-market-108641
+- **Mordor Intelligence: FinTech Market** -- https://www.mordorintelligence.com/industry-reports/us-fintech-market 
 
