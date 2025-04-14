@@ -33,6 +33,12 @@ The picture below illustrates the feedback loop cycle in recommender systems:
 ### 🧠 Research Foundation
 Our project is based on a recent academic research focused on identifying and addressing bias in recommender systems. A key paper that informed our work is "**Feedback Loop and Bias Amplification in Recommender Systems**" (2020), published by the ACM Web Conference. This study investigates how feedback loops where user interactions with recommended content, influence future recommendations and can enhance existing biases within the system over time. It highlights that recommender algorithms often overemphasize popular items due to repeated exposure, reinforcing popularity bias and limiting content diversity.
 
+Some key concepts we focus on in our project include **popularity bias**, which arises from feedback loops that cause systems to over-recommend popular items while underexposing niche content. **Feedback loops** form when user interactions reinforce existing recommendations, gradually amplifying bias.
+
+The paper highlights several core issues caused by feedback loops: reduced overall diversity in recommendations, shifts in user preferences, increased homogenization of user experiences, and disproportionate effects on minority users—who often receive less personalized and more biased recommendations.
+
+These concepts and challenges directly inspired our project and shaped our approach to identifying and driving change within recommendation systems.
+
 The link to the research paper we selected is:
 📎 [Link to paper](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
 
