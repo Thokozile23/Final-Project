@@ -28,6 +28,8 @@ We investigate the major challenge feedback loops in recommender systems create 
 The picture below illustrates the feedback loop cycle in recommender systems:
 
 <img src="https://github.com/user-attachments/assets/8792d0c2-a92d-4fe1-af72-2f347b464e42" width="400"/>
+*Image source: Zhang, Y., Wang, X., & Feng, F. (2021). Bias Issues and Solutions in Recommender System. In Proceedings of the 15th ACM Conference on Recommender Systems. https://doi.org/10.1145/3460231.3473321*
+
 
 ---
 ### 🧠 Research Foundation
