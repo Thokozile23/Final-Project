@@ -154,10 +154,10 @@ The simulation plots how each product's score evolves over 20 iterations.
 - In **Model A**, the same few products dominate over time due to constant reinforcement.  
 - In **Model B**, more products stay in circulation thanks to occasional boosts, resulting in a more balanced and diverse recommendation landscape.
 
-## Model A: Feedbackloop without exploration
+### Model A: Feedbackloop without exploration
 ![Alt Text](https://github.com/Thokozile23/Final-Project/blob/9792dc84ddb20e6288ccb672ad4979e9873934b6/feedback%20loop%20without%20exploration.png)
 
-## Model B: Feedbackloop with exploration 
+### Model B: Feedbackloop with exploration 
 ![Alt Text](https://github.com/Thokozile23/Final-Project/blob/5ffa8a2cdf6237d209c1a92abf7588b606756a5d/exploration%20picture%20improved.png)
 
 ---
