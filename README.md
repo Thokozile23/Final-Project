@@ -48,17 +48,16 @@ The link to the research paper we selected is:
 
 ---
 ### 💻 Simulating a Recommender System
-To understand how feedback loops contribute to popularity bias and the lack of diversity in recommender systems, we simulate two models to showcase different behaviors in the recommendation process.
+To explore how recommender systems evolve and influence content visibility, we built a lightweight simulation that models product engagement over time using fictional cereal brands as stand-ins for real-world items.
 
-**Model A**: Repeated Exposure to Top Picks
+Rather than tracking individual users, our simulation looks at **aggregate interactions**, where recommended products receive popularity "boosts" based on user clicks. This approach highlights how **algorithmic decisions**—even in simplified environments—can create powerful feedback loops.
 
-In this model, the recommender system continually prioritizes the most popular items based on user interactions, leading to a cycle where the top picks are repeatedly recommended to users. As a result, the system reinforces existing preferences, making it increasingly difficult for lesser-known or niche items to gain visibility. Over time, this causes a reduction in the diversity of recommendations, with users being exposed primarily to mainstream content. The model's score trends show a clear preference for popular items, with a steady decline in the exploration of new content.
+We simulate and compare two common strategies:
+- One that prioritizes high-performing items and reinforces existing popularity.
+- One that occasionally introduces less popular items to encourage **exploration**.
 
-**Model B**: Incorporating Exploration
+This setup helps us visualize the impact of feedback loops on diversity, and explore how small interventions might **promote fairness** and reduce popularity bias in recommender systems.
 
-Model B introduces an element of exploration, where the system occasionally recommends less popular or new items alongside the top picks. This approach is designed to break the cycle of popularity reinforcement and encourage a more balanced display of recommendations. By adding exploration, the system promotes greater content diversity and provides users with a wider range of items to discover. In this model, score trends over time demonstrate a more balanced recommendation pattern, where niche and emerging items receive more attention, improving both the variety of recommendations and user engagement with new content.
-
-These two models are analyzed and compared by visualizing their score trends over time, providing insights into how feedback loops influence recommendation dynamics. The findings from these simulations will guide our understanding of how to reduce popularity bias and design fairer, more diverse recommender systems.
 
 [Go to Simulation Section](#simulating-a-recommender-system)
 
