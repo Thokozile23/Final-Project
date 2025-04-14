@@ -33,7 +33,7 @@ The picture below illustrates the feedback loop cycle in recommender systems:
 
 
 
----
+
 ### 🧠 Research Foundation
 Our project is based on a recent academic research focused on identifying and addressing bias in recommender systems. A key paper that informed our work is "**Feedback Loop and Bias Amplification in Recommender Systems**" (2020), published by the ACM Web Conference. This study investigates how feedback loops where user interactions with recommended content, influence future recommendations and can enhance existing biases within the system over time. It highlights that recommender algorithms often overemphasize popular items due to repeated exposure, reinforcing popularity bias and limiting content diversity.
 
@@ -46,7 +46,7 @@ These concepts and challenges directly inspired our project and shaped our appro
 The link to the research paper we selected is:
 📎 [Link to paper](https://dl.acm.org/doi/abs/10.1145/3340531.3412152)
 
----
+
 ### 💻 Simulating a Recommender System
 To explore how recommender systems evolve and influence content visibility, we built a lightweight simulation that models product engagement over time using cereal brands.
 
@@ -61,7 +61,7 @@ This setup helps us visualize the impact of feedback loops on diversity, and exp
 
 [Go to Simulation Section](#simulating-a-recommender-system)
 
----
+
 ### 🌐 Website Demo (GenAI)
 
 We developed an interactive movie recommendation website using ClaudeAI to visually demonstrate how feedback loops in recommender systems contribute to popularity bias. The simulation mimics a user engaging with various types of movie content—especially niche or lesser-known films. Despite this engagement, the "For You" feed continues to prioritize already popular titles, showing how recommender algorithms often override individual preferences in favor of widespread trends.
@@ -72,7 +72,7 @@ Link to our website can be found below:
 
 [Go to Website Section](#website-demo-popularity-bias-in-action)
 
----
+
 ### 🗂️ Project Management: GitHub Kanban Board
 
 To effectively manage and track the progress of our project, we utilized a GitHub Project Board. This tool allowed us to break down our tasks into clear, actionable categories, helping ensure transparency, collaboration, and accountability throughout the project. Our board was organized into several key sections, each representing different stages of the project workflow:
@@ -90,7 +90,7 @@ To effectively manage and track the progress of our project, we utilized a GitHu
 
 [View our Kanban board](https://github.com/users/Thokozile23/projects/8)
 
----
+
 ### 💼 Business Implications
 Recommender systems can unintentionally reinforce popularity bias, limit content diversity, and raise ethical concerns around user privacy and manipulation. We explore these risks and highlight simple strategies like boosting diversity, improving transparency, and minimizing data use.
 
@@ -111,7 +111,7 @@ Recommender systems can unintentionally reinforce popularity bias, limit content
 
 [Go to Future Developments Section](#Future-Developments)
 
----
+
 ### 📚 References
 
 Our project is grounded in recent work highlighting how recommender systems amplify bias through feedback loops. These systems tend to favor popular content, often at the expense of diversity and fairness.
