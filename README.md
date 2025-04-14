@@ -220,7 +220,7 @@ Algorithmic bias is rooted in how models are built and trained, often reflecting
 
 ![image](https://github.com/user-attachments/assets/13ef7933-f24c-44c1-8fe7-18e8f9aefaed)
 
-## Image Source: Di Noia et al., 2022, p. 70 *
+** Image Source: Di Noia et al., 2022, p. 70 *
 
 ### Ethical Concerns
 
