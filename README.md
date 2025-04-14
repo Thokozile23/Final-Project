@@ -253,8 +253,10 @@ Lead by example by integrating cutting-edge, privacy-preserving machine learning
 Develop a dashboard to display how recommendations are generated, showcasing the balance between popularity, diversity, and user preferences.
 
 
-## What's Next? Help us Envision the Future of Recommenders!
+---
+### What's Next? Help us Envision the Future of Recommenders!
 
+---
 ---
 
 ## References
